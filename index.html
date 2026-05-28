@@ -302,16 +302,24 @@
         let html = '';
 
         if (modoActual === 'especia') {
-            html = `
-                <span class="flag">${item.flag || '🌶️'}</span>
-                <h1>${item.title}</h1>
-                <p style="text-align:center; font-size:0.8rem; text-transform:uppercase; color:var(--color-accent);">${item.category || ''}</p>
-                <p class="section-content" style="font-style:italic; text-align:center;">${item.introduction || ''}</p>
-                
-                ${(item.sections || []).map(s => `
-                    <div class="section-title">${s.title}</div>
-                    <div class="section-content">${s.content}</div>
-                `).join('')}
+    html = `
+        <span class="flag">${item.flag || '🌶️'}</span>
+        <h1>${item.title}</h1>
+        <p style="text-align:center; font-size:0.8rem; text-transform:uppercase; color:var(--color-accent);">${item.category || ''}</p>
+        <p class="section-content" style="font-style:italic; text-align:center;">${item.introduction || ''}</p>
+        
+        ${(item.sections || []).map(s => `
+            <div class="section-title">${s.title}</div>
+            <div class="section-content">${s.content}</div>
+        `).join('')}
+        
+        <div class="nav-controls" style="justify-content: center; margin-top: 30px; width: 100%;">
+            <button class="btn-menu" style="width: 100%; max-width: 300px; font-size: 0.8rem;" onclick="goPage('indice-especias')">
+                ⬅ Volver a Las Especias
+            </button>
+        </div>
+    `;
+}
                 
                 <div class="nav-controls">
                     <button class="btn-nav" onclick="${indiceActual > 0 ? `cambiarHoja(-1)` : `goPage('indice-especias')`}">

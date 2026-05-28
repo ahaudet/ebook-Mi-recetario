@@ -184,11 +184,20 @@
 
     <!-- 2. ÍNDICE GENERAL -->
     <div id="indice-general" class="page">
+      <!-- 2. ÍNDICE GENERAL -->
+    <div id="indice-general" class="page">
         <div class="card">
             <h1 style="margin-bottom: 40px;">Menú Principal</h1>
             <div class="menu-grid">
                 <button class="btn-menu" onclick="goPage('indice-recetas')">El Recetario</button>
                 <button class="btn-menu" onclick="goPage('indice-especias')">Las Especias</button>
+                
+                <!-- Botón de salida discreto -->
+                <div style="margin-top: 50px; text-align: center;">
+                    <button onclick="goPage('portada-principal')" style="background: none; border: none; color: #a09080; text-decoration: underline; font-family: 'Montserrat', sans-serif; font-size: 0.75rem; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;">
+                        ⬅ Salir a la Portada
+                    </button>
+                </div>
             </div>
         </div>
     </div>

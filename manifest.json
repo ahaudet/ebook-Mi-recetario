@@ -1,16 +1,21 @@
 {
-  "name": "Recetario e Índice IDEA",
-  "short_name": "IDEA",
-  "description": "Recetario y Glosario Digital de Alejandro Haudet",
-  "start_url": "Glosario.html",
+  "name": "Mi recetario",
+  "short_name": "Recetario",
+  "description": "Recetario digital y glosario de especias de autor.",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#fffaf0",
-  "theme_color": "#8B4513",
+  "background_color": "#000000",
+  "theme_color": "#4a3728",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/2927/2927347.png",
+      "src": "image_d6412b.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "image_d6412b.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpeg"
     }
   ]
 }

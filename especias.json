@@ -1,0 +1,569 @@
+[
+  {
+    "id": "spice_aji_molido",
+    "title": "Ají Molido",
+    "flag": "🇦🇷",
+    "category": "picante",
+    "introduction": "Fruto desecado y triturado del genero Capsicum, pilar indiscutido de la identidad gastronomica de la region rioplatense andina y la cocina criolla.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Aunque los cultivos del genero Capsicum tienen un arraigo ancestral en toda America, la produccion de esta molienda tradicional se concentra con gran fuerza en el Noroeste Argentino (region del NOA), principalmente en los valles calchaquies de Salta y Catamarca. Las condiciones de suelo y el secado artesanal al sol de la region consolidaron una denominacion de origen de hecho para el recetario tradicional local."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "A diferencia de chiles con pungencias extremas, se caracteriza por un picor moderado y amigable al paladar. Presenta un perfil complejo que equilibra notas sutilmente dulces, frutales y un marcado ahumado natural derivado de sus metodos de deshidratacion. Su textura no es un polvo fino, sino un triturado rustico con presencia dinamica de escamas rojas y pepitas blanquecinas que aportan textura."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el alma mater del chimichurri tradicional y el adobo criollo. Constituye una base obligatoria para los rellenos de empanadas salteñas y tucumanas, el locro, los guisados de lentejas y la salsa tamalera. TECNICA GASTRONOMICA: Funciona de manera excelente para saborizar aceites de acabado en caliente directo sobre la parrilla. Para maximizar su expresion, se recomienda hidratarlo unos minutos en un chorrito de agua tibia o caldo antes de incorporarlo a emulsiones aceitosas."
+      }
+    ]
+  },
+  {
+    "id": "spice_anis_estrellado",
+    "title": "Anís Estrellado",
+    "flag": "🇨🇳",
+    "category": "aromatico",
+    "introduction": "Fruto seco con forma de estrella de ocho puntas obtenido del arbol perennifolio Illicium verum, famoso por su alta concentracion de anetol.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las regiones del suroeste de China y el norte de Vietnam, donde se ha cultivado tradicionalmente durante milenios tanto para uso culinario como en la medicina tradicional oriental. Su introduccion en Occidente a traves de las rutas comerciales revoluciono la reposteria y la licoreria europea gracias a su perfil unico, marcando una clara diferencia botanica con el anis verde comun."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Se caracteriza por un aroma licoroso, penetrante y profundamente dulce. En boca ofrece un sabor anisado intenso con notas sutilmente amaderadas y un dejo ligeramente picante o fresco en el retrogusto. El compuesto quimico responsable de este perfil es el aceite esencial de anetol, el cual se encuentra concentrado de manera uniforme en la resistente corteza de los carpelos que forman la estrella."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el pilar fundamental de la mezcla china del Polvo de 5 Especias y un ingrediente indispensable para aromatizar caldos largos asiaticos como el Pho vietnamita. En Occidente destaca en la reposteria invernal, infusiones, compotas y la destilacion de licores. TECNICA GASTRONOMICA: Su gran resistencia al calor lo hace ideal para cocciones prolongadas en guisados de carne, almibares y fondos. Para liberar mejor sus aceites, se puede quebrar ligeramente la estrella antes de sumergirla en el liquido caliente."
+      }
+    ]
+  },
+  {
+    "id": "spice_baharat",
+    "title": "Baharat",
+    "flag": "🌍",
+    "category": "mezcla",
+    "introduction": "Mezcla de especias calida, aromatica y de notas terrosas o ahumadas, fundamental en Oriente Medio, la region del Golfo Arabigo, Grecia y Turquia.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Desarrollada historicamente a partir del rol de los comerciantes arabes en el mundo antiguo. Se extendio ampliamente por el Mediterraneo, generando variantes locales como la version turca (con mucha menta) o la tunecina (con capullos de rosa y canela)."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Perfil calido y aromatico con fortes notas terrosas y ahumadas. Solo una pizca es capaz de potenciar los sabores de carnes, pollos, pescados (sobre todo grasos como caballa y salmon), verduras, sopas y salsas."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Se usa en marinadas (aceite, limon y baharat) o directo en carnes picadas. RECETA CASERA (para 3/4 taza): Combinar 2 cdas de pimienta negra, cilantro y comino; 1 cdta de cardamomo; 1/2 cdta de clavos; y 4 palitos de canela. Tostar en sarten a fuego medio-alto hasta que suelten fragancia, dejar enfriar y moler. Mezclar con 2 cdas de pimenton dulce y 1/2 cdta de nuez moscada. (Tip: sumar menta seca para estilo turco o chile para picor)."
+      }
+    ]
+  },
+  {
+    "id": "spice_canela",
+    "title": "Canela",
+    "flag": "🇱🇰",
+    "category": "dulce",
+    "introduction": "Corteza interna desecada y enrollada del arbol de hoja perenne Cinnamomum verum, considerada una de las especias mas antiguas y utilizadas del mundo.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Originaria de Sri Lanka y el sur de la India. Historicamente citada desde el Exodo y empleada en China en el 2500 a.C., hoy se produce tambien en Malasia, Java, Madagascar, Brasil y Guyana. Existen mas de 100 variedades, destacando la canela de Ceilan por su alta calidad. Tambien se comercializa la Casia (Cinnamomum cassia) o canela de China, la cual posee un aroma mas intenso, un valor de mercado inferior y suele venderse de forma fraudulenta como canela autentica."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Posee un color pardo rojizo tras su secado y un aroma y sabor intensamente dulces y amaderados. La version molida libera su sabor de forma mas rapida y fuerte, ideal para reposteria, aunque pierde frescura con velocidad. La canela en rama ofrece un perfume mas sutil y prolongado, ideal para procesos de infusion. Su aroma contiene linalool, sustancia que ayuda a reducir la fatiga, disminuir el estres y mejorar el estado de animo."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Fundamental en la aromatizacion de leche para postres (arroz con leche, torrijas, cremas), bizcochos y galletas (batiendola con la mantequilla). En platos salados, aporta intensidad al curry y a las maceraciones de pollo. TECNICAS COCTELERAS Y ESENCIAS: Se puede infusionar en agua con rodajas de naranja para bases aromaticas, o elaborar una esencia para horneado sumergiendo 2 ramas en 85 ml de ron blanco en un lugar oscuro durante 2 semanas, agitando diariamente. Tip: Conservar en frasco hermetico lejos de la luz y la humedad, prefiriendo la rama entera para mayor durabilidad."
+      }
+    ]
+  },
+  {
+    "id": "spice_cardamomo",
+    "title": "Cardamomo",
+    "flag": "🇮🇳",
+    "category": "herbal",
+    "introduction": "Semilla altamente aromatica de la familia del jengibre, considerada una de las especias mas caras del mundo junto al azafran y la vainilla.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las selvas de la India meridional, Sri Lanka, Malaysia y Sumatra. Su uso se extendio a Oriente Medio, los paises nordicos y America Central; actualmente, Guatemala es uno de los principales productores y exportadores mundiales, reconocido por lograr una calidad que supera al de origen asiatico."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Aroma intenso, sofisticado y afrutado. Presenta tres variedades comerciales: el Verde (el mas comun y sabroso, ideal para liquidos), el Negro (mas grande, amargo y con un perfil fresco, intenso y ahumado) y el Blanco (un subproducto del lavado del verde, con un caracter mucho menos intenso)."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "En India se usa en curries, arroces y bebidas. En Oriente Medio se mezcla con cafe (cafe de hospitalidad) y en Turquia o Libano se añade a sopas de pollo o marinadas de Shish taouk y shawarma. En Paises Nordicos y Centroeuropa destaca en reposteria (bollos suecos, donuts, strudels) y en el vino caliente Glühwein. Tip: Comprar en vainas y moler solo los granos internos al momento para preservar su potencia."
+      }
+    ]
+  },
+  {
+    "id": "spice_cayena",
+    "title": "Cayena",
+    "flag": "🇬🇫",
+    "category": "picante",
+    "introduction": "Pimiento de gran caracter obtenido de la planta solanacea Capsicum annuum, molido tras su secado para convertirse en una especia de intenso color rojizo y potente sabor picante.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Originaria de America del Sur, Central y Mexico, donde los nativos e incas ya la utilizaban con fines culinarios y medicinales en la etapa precolombina. Su introduccion en Europa se asocia a Cristobal Colon, quien la exporto por error creyendo que era la pimienta tradicional de oriente. Etimologicamente, su nombre podria provenir de la palabra 'quiinia' (pimienta en una antigua lengua brasileña) o de la ciudad y rio Cayena en la Guayana Francesa."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Presenta un color rojizo, piel tersa y brillante, e intenso aroma. Su potente picor no aporta un sabor propio a los platos, lo que la vuelve sumamente versatil. El responsable de su caracter es la molecula de capsaicina, la cual se concentra principalmente en las diminutas semillas blanquecinas de su interior y en los pericarpios que las recubren. Dependiendo de la maduracion del fruto, su forma pasa de ser redonda como una guinda a mas alargada y fina."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Utilizada globalmente para dar vida y pungencia a estofados, guisos, legumbres, platos de caza, arroces, pastas, pescados, mariscos y embutidos, siendo un pilar en las cocinas mexicana y asiatica, y un recurrente en la mediterranea. Es el ingrediente base de la famosa salsa Tabasco y de aceites picantes para pizzas. FORMATOS TECNICOS: Se comercializa entera, en copos/escamas o molida. La version molida es ideal para fusionarse por completo en sopas, caldos y purés, mientras que los copos se espolvorean en pizzas o platos de cazuela."
+      }
+    ]
+  },
+  {
+    "id": "spice_cilantro",
+    "title": "Cilantro",
+    "flag": "🌍",
+    "category": "herbal",
+    "introduction": "Hierba anual de la familia de las apiaceas, fundamental a nivel global y conocida tambien como culantro o kuratu, caracterizada por la dualidad gastronomica entre sus hojas y sus semillas.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las regiones del Mediterraneo y el Caucaso, es una de las hierbas aromaticas mas antiguas registradas por la humanidad. Su versatilidad permitio una expansion masiva y temprana hacia Asia, donde se volvio indispensable en la cocina hindu y del sudeste asiatico, y posteriormente hacia America Latina, transformandose en el sello verde indiscutido de las gastronomias mexicana, peruana y caribeña."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Ofrece un caracter fresco, intensamente citrico y vibrante en sus hojas y tallos tiernos. Presenta la particularidad de dividir opiniones debido a los componentes aldehidos de su aceite esencial, los cuales hacen que ciertos paladares perciban un extraño matiz jabonoso. Es crucial diferenciar su perfil herbal del de sus semillas (el coriandro), ya que estas ultimas aportan notas secas, amaderadas y calidas que no son intercambiables con la hierba fresca."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Elemento obligatorio en preparaciones en frio como ceviches, guacamole, pico de gallo, salsas criollas y adobos. Tambien corona curries, sopas tradicionales andinas y guisados justo antes de servir. TECNICA GASTRONOMICA: Los aceites aromaticos de sus hojas son altamente volatiles y se destruyen rapidamente con el calor, por lo que debe picarse a cuchillo limpio (evitando machacarlo) e incorporarse estrictamente al final de la coccion o en crudo. Tip de conservacion: Guardar los tallos sumergidos en un frasco con agua como un ramo de flores, cubierto por una bolsa en la heladera."
+      }
+    ]
+  },
+  {
+    "id": "spice_clavo",
+    "title": "Clavo de Olor",
+    "flag": "🇮🇩",
+    "category": "dulce",
+    "introduction": "Botones florales secos y recolectados antes de abrir del arbol Syzygium aromaticum, famoso por poseer una de las mayores concentraciones de aceites esenciales del mundo vegetal.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las legendarias Islas Molucas en Indonesia, historicamente conocidas como las Islas de las Especias. Durante la Antiguedad y la Edad Media, su monopolio comercial desato disputas navales de escala global entre imperios debido a su incalculable valor y escasez. Hoy en dia, su cultivo se ha expandido con exito a otras regiones tropicales de alta humedad como Madagascar, Tanzania (isla de Zanzibar), Sri Lanka y Brasil."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Posee un aroma penetrante, calido, punzante y profundamente amaderado con notas sutilmente frutales. En boca despliega un sabor sumamente intenso, picante y astringente que deja una sensacion levemente anestesica o de adormecimiento en la lengua. El responsable absoluto de esta potencia organoleptica es el eugenol, un compuesto quimico volatil que compone hasta el noventa por ciento de su aceite esencial."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Elemento fundamental en la elaboracion de fondos de carne, salsas clasicas (como la bechamel claveteada en una cebolla), charcuteria, encurtidos y conservas dulces. Forma parte de grandes mezclas mundiales como el Garam Masala o el Polvo de 5 Especias y aromatiza bebidas invernales como el vino caliente. TECNICA GASTRONOMICA: Debido a su extrema concentracion, debe usarse con estricta moderacion para no saturar quimicamente el plato. Al usarse entero, se aconseja retirarlo antes del servicio o clavarlo firmemente en un vegetal para facilitar su extraccion."
+      }
+    ]
+  },
+  {
+    "id": "spice_comino",
+    "title": "Comino",
+    "flag": "🇪🇬",
+    "category": "picante",
+    "introduction": "Semilla seca proveniente de la planta herbacea Cuminum cyminum, considerada uno de los pilares aromaticos mas antiguos y potentes de la cocina terrosa.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de la cuenca del Mediterraneo Oriental y las regiones de Asia Central, cuenta con registros de uso que se remontan al antiguo Egipto, donde se utilizaba tanto en la gastronomia como en los procesos de momificacion. Su versatilidad y caracter indispensable facilitaron una expansion masiva hacia el subcontinente indio, el norte de Africa, España y, posteriormente, a traves de la colonizacion, se volvio un elemento identitario de la cocina criolla en toda America Latina."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Se caracteriza por un sabor y aroma sumamente fuertes, penetrantes, calidos y con un marcado trasfondo terroso, acompañado de notas sutilmente amargas y citricas. El principal responsable de esta potencia es el cuminaldehido, un compuesto organico presente en sus aceites esenciales. Su presencia en boca es persistente, por lo que posee la capacidad de dominar el perfil de un plato si no se dosifica con equilibrio y precision tecnica."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es un componente obligatorio en la arquitectura de sabor de las empanadas criollas tradicionales, las humitas, los tamales y los guisados de legumbres, ademas de ser la columna vertebral de grandes mezclas globales como el curry, el Garam Masala y el Baharat. Tambien actua como un excelente conservante natural de carnes. TECNICA GASTRONOMICA: Para liberar todo su potencial, se recomienda comprar la semilla entera y tostarla en seco en una sarten a fuego medio antes de molerla; el calor transforma el amargor crudo en notas mas complejas que recuerdan a los frutos secos tostados."
+      }
+    ]
+  },
+  {
+    "id": "spice_coriandro",
+    "title": "Coriandro",
+    "flag": "🌍",
+    "category": "herbal",
+    "introduction": "Semilla pequeña, redonda y de color beige obtenida de la planta Coriandrum sativum, la misma que produce la hierba fresca conocida como cilantro.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Proviene de la misma planta que el cilantro fresco. En regiones como Estados Unidos se diferencia semanticamente llamando 'cilantro' a las hojas y 'coriandro' a las semillas, mientras que en el Reino Unido e India se denomina cilantro a ambos elementos. Historicamente es un ingrediente clave en la cocina internacional, expandido desde curries indios y salsas mexicanas hasta mezclas de Oriente Medio y la panaderia de centeno escandinava."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Posee una textura ligeramente estriada. Al triturarse o molerse desprende un aroma calido a limon con notas sutilmente dulces y un toque a nuez. Sus notas difieren completamente de la hoja fresca (la cual es intensa, herbacea y para algunos jabonosa), por lo que semilla y hoja no son intercambiables en las preparaciones, aunque se complementan a la perfeccion."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Aporta un sabor profundo, suave y distintivo en sopas, guisos, verduras asadas y condimentos para carne. Es sumamente versatil para combinar con comino, chile, citricos, miel y hierbas, ademas de emplearse in galletas especiadas o panes que requieran un matiz citrico. Tip de cocina: Se recomienda tostar las semillas enteras antes de molerlas para obtener un sabor mucho mas fresco e intenso."
+      }
+    ]
+  },
+  {
+    "id": "spice_curry",
+    "title": "Curry",
+    "flag": "🇮🇳",
+    "category": "mezcla",
+    "introduction": "Mezcla de especias originaria de la India cuya composicion varia ampliamente. Su nombre proviene del tamil 'kari', que significa salsa o condimento para el arroz.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Gastronomia de la India. Se popularizo globalmente durante los siglos XIX y XX a traves de la exportacion masiva hacia Europa y las Americas. A partir de los años 1960 y 1970, con el auge de los restaurantes indios en el mundo, la preparacion artesanal de mezclas especiales dejo de ser rentable en Occidente, lo que llevo a la estandarizacion comercial del condimento fuera de su pais de origen."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Complejo, calido y profundamente aromatico. Mientras que en Occidente posee un sabor estandarizado y predecible, en la cocina hindu presenta una enorme diversidad de matices. Los cocineros locales suelen diseñar perfiles especificos utilizando especias frescas para cada receta, un conocimiento celosamente guardado que se transmite de padres a hijos."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Base para estofados, salsas, legumbres y arroces. La columna vertebral de cualquier curry en polvo incluye cilantro, curcuma, comino y alholva. Segun el estilo de la receta, se añaden capas de sabor con ingredientes como jengibre, ajo, semillas de hinojo, mostaza, canela, clavo, cardamomo (verde y negro), macis, nuez moscada, y variantes de pimienta (roja, negra y larga)."
+      }
+    ]
+  },
+  {
+    "id": "spice_garam_masala",
+    "title": "Garam Masala",
+    "flag": "🇮🇳",
+    "category": "mezcla",
+    "introduction": "Mezcla de especias originaria del norte de la India cuyo nombre se traduce como 'mezcla caliente'. A diferencia del curry occidental, no posee color amarillo ya que no contiene curcuma.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Originaria del norte de la India. No existe una receta unica o canonica para su elaboracion; los ingredientes varian notablemente de pueblo en pueblo e incluso entre familias, donde cada cocinero mantiene su propia combinacion tradicional."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Aroma y sabor calido, profundo y sumamente aromatico. En una proporcion bien equilibrada, ofrece un perfil donde ninguna especia destaca excesivamente sobre las demas, resultando en un condimento armonioso que no es ni muy fuerte, ni muy suave, ni muy picante."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Excelente para condimentar platos de carnes, pescados, mariscos y verduras. RECETA CASERA EQUILIBRADA: Combinar 1 cdta de comino, cilantro y pimienta negra (todos en grano); 1/2 cdta de cardamomo, canela molida y nuez moscada; 1/4 cdta de clavo de olor y una pizca de chile seco. Tostar todo en sarten a fuego suave durante 5 a 10 minutos cuidando que no se queme, y luego moler en mortero o molinillo. Tip: Aunque se puede almacenar en bote hermetico protegido de la luz, lo ideal para maximizar su potencia es moler las especias al momento de cocinar."
+      }
+    ]
+  },
+  {
+    "id": "spice_jengibre",
+    "title": "Jengibre",
+    "flag": "🇮🇳",
+    "category": "herbal",
+    "introduction": "Rizoma subterraneo articulado de la planta Zingiber officinale, valorado globalmente por su perfil picante, fresco y sus amplias propiedades terapeuticas.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las regiones tropicales del sudeste asiatico y el sur de la de la India, donde se ha cultivado de forma ininterrumpida durante mas de tres milenios. Fue una de las primeras especias orientales en llegar a Occidente a traves de las rutas comerciales del Mediterraneo gracias a los mercaderes fenicios y romanos. Actualmente, India, China, Jamaica y Nigeria se posicionan como los principales productores de rizomas con alta concentracion oleorresinosa."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Despliega un aroma intensamente citrico, refrescante, amaderado y sutilmente dulce. En boca ofrece un picor punzante pero limpio, el cual no satura el paladar a largo plazo. Este caracter organoleptico se debe al gingerol cuando el rizoma esta fresco, un compuesto quimico que al cocinarse o deshidratarse se transforma en zingerona y shogaol, moleculas que modifican el perfil duplicando la sensacion de calor en la boca."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Ingrediente indispensable en salteados al wok, curries, pastas de especias, marinadas para carnes blancas y preparaciones de sushi (como el gari o jengibre encurtido). En Occidente lidera la reposteria invernal en galletas, panes especiados y bebidas como el Gingerbread o la cerveza de jengibre. TECNICA GASTRONOMICA: Su formato define el resultado: fresco aporta notas citricas y jugosas, ideal para salteados rápidos; en polvo ofrece un picor mas seco y concentrado, optimo para masas. Al usarlo fresco, se recomienda pelarlo raspando la piel con una cuchara para no desperdiciar la pulpa pegada a la corteza."
+      }
+    ]
+  },
+  {
+    "id": "spice_kashmiri",
+    "title": "Kashmiri Masala",
+    "flag": "🇮🇳",
+    "category": "picante",
+    "introduction": "Mezcla de especias originaria de la region de Cachemira, caracterizada por su suavidad y capacidad para realzar sabores sin abrumar el paladar.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Proviene de la region de Cachemira, al norte de la India. Esta mezcla refleja la rica herencia cultural y las tradiciones gastronomicas de un territorio que ha funcionado historicamente como un crisol de influencias."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Posee un perfil sumamente sutil y versatil que equilibra matices profundos sin una pungencia agresiva, siendo ideal tanto para fanaticos del picante como para paladares sensibles. Al integrarse en curries, ayuda a desarrollar una textura suave y cremosa que hace brillar a los ingredientes principales."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Se utiliza en una amplia variedad de recetas con carnes, pescados y verduras. RECETA AUTENTICA: Medir 3 cdas de pimiento rojo Kashmiri, 1 cda de comino en polvo, 1 cdta de cilantro en polvo, 1/2 cdta de curcuma en polvo, 1/2 cdta de garam masala, y 1/4 cdta de canela, clavo de olor y cardamomo (todos en polvo). TECNICA: Seleccionar las especias (5 min), tostar en seco (10 min), moler hasta obtener un polvo fino (5 min), mezclar de ser necesario (5 min) y dejar reposar la mezcla durante 15 minutos antes de utilizarla en la receta deseada."
+      }
+    ]
+  },
+  {
+    "id": "spice_merken",
+    "title": "Merkén",
+    "flag": "🇨🇱",
+    "category": "picante",
+    "introduction": "Aliño tradicional elaborado a base de aji cacho de cabra seco y ahumado. Su nombre proviene del mapudungun 'medken chadi', que significa 'sal molida'.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Originario de la gastronomia del pueblo mapuche (pueblo indigena de Chile y Argentina), principalmente de aquellos que habitan en la region de la Araucania. Tradicionalmente era un condimento a base de sal triturada mezclada con aji, aunque hoy en dia su produccion se ha agilizado mediante el uso de molinos de martillo electricos."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Presenta un aspecto de polvo rojo ligeramente opaco con pequeñas escamas de distintas tonalidades. Su sabor es ligeramente picante y marcadamente ahumado. Comercialmente existen dos variedades definidas por sus ingredientes: el 'merken natural', que contiene unicamente aji cacho de cabra y sal; y el 'merken especial', que incorpora semillas de cilantro tostadas y trituradas para aportar frescura y suavizar el impacto del picante en boca."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Se utiliza habitualmente en reemplazo del aji fresco en multiples preparaciones. Es sumamente versatil y funciona de manera excelente en platos con carnes, pescados, acompañamientos como papas o verduras a la parrilla, e incluso en la elaboracion de chocolates y confituras. PROCESO TRADICIONAL Y FORMULA: Se recolectan los ajies verdes en verano, se dejan madurar a rojo intenso, se secan al sol y se ahuman a fuego. Tras colgarse en vigas, se muelen enteros (con semillas) en mortero de piedra. La proporcion del 'merken especial' es de aproximadamente 70% aji, 20% sal y 10% semillas de cilantro."
+      }
+    ]
+  },
+  {
+    "id": "spice_paprika",
+    "title": "Páprika",
+    "flag": "🇭🇺",
+    "category": "dulce",
+    "introduction": "Ingrediente esencial de la cocina hungara y condimento popular a nivel mundial, elaborado a partir de pimientos molidos en un polvo fino.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Aunque se origino en America del Sur, fue transportada a Europa por los exploradores españoles en el siglo XVI. Al llegar a Hungria, los agricultores locales desarrollaron su cultivo y molienda caracteristica, transformandola en el pilar fundamental de su gastronomia tradicional, con una fuerte adopcion posterior en el resto de Europa y America."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Se caracteriza por un perfil predominantemente dulce y sutilmente picante. Este polvo fino aporta un equilibrio aromatico singular que, ademas de dar profundidad de sabor, otorga un color rojo vibrante muy caracteristico a cualquier preparacion culinaria."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el componente indispensable del goulash (el famoso guiso de carne hungaro), ademas de utilizarse ampliamente en sopas, salsas, ensaladas y platos de carnes o pescados. Posee un rol tecnico clave en la industria artesanal para la elaboracion de embutidos, salchichas, ciertos tipos de quesos y encurtidos."
+      }
+    ]
+  },
+  {
+    "id": "spice_pimienta_blanca",
+    "title": "Pimienta Blanca",
+    "flag": "🇮🇳",
+    "category": "picante",
+    "introduction": "Semilla madura y desprovista de su corteza externa de la planta Piper nigrum, nativa de la Costa de Malabar en la India, valorada por su picor limpio, directo y su estetica impecable.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Proviene estrictamente de la planta Piper nigrum, una especie originaria de la Costa de Malabar, al suroeste de la India. Comparte cuna y genetica con la pimienta negra y la verde, tratandose del mismo fruto pero en un estado avanzado de madurez. Para obtenerla, las bayas se cosechan cuando estan completamente rojas. Luego se sumergen en agua corriente durante aproximadamente una semana para que el pericarpio (la piel exterior) se ablande y pueda ser removido de forma mecanica o manual, dejando expuesto unicamente el corazon de la semilla de color crema."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Ofrece un picante mas agudo, directo y concentrado en el paladar que la pimienta negra, debido a la alta densidad de piperina en el nucleo de la semilla. Al carecer de la capa exterior, pierde las notas citricas, frutales y frescas del pericarpio, desarrollando en su lugar un aroma mas terroso, animal, fermentado y punzante. Su gran ventaja gastronomica es que aporta toda la potencia termica del grano sin alterar la armonia visual de las preparaciones de color claro."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el estandar de oro para sazonar salsas claras como la bechamel o salsa blanca, veloutes, pures de papas, cremas de verduras, platos de pasta claros y fondues de queso. Tambien es muy utilizada en la elaboracion de embutidos tradicionales y adobos para carnes blancas como aves o pescados delicados. TECNICA GASTRONOMICA: Sus aceites aromaticos son mas volatiles que los de la pimienta negra; por lo tanto, se aconseja molerla en el momento y agregarla estrictamente hacia el final de la coccion para evitar que desarrolle notas excesivamente amargas."
+      }
+    ]
+  },
+  {
+    "id": "spice_pimienta_negra",
+    "title": "Pimienta Negra",
+    "flag": "🇮🇳",
+    "category": "picante",
+    "introduction": "Fruto entero, drupáceo y deshidratado de la planta Piper nigrum, cosechado de forma prematura y venerado mundialmente como la reina de las especias.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativa absoluta de la Costa de Malabar, una franja costera situada al suroeste de la India en el actual estado de Kerala. Históricamente considerada el 'oro negro', su comercio impulsó la Era de los Descubrimientos y trazó rutas navales globales. Compartiendo planta con la pimienta blanca y la verde, la versión negra se obtiene recolectando las bayas a mitad de su maduración, cuando tornan a un color verde amarillento, para luego someterlas a un breve escaldado y un proceso de secado al sol que deshidrata y arruga su corteza."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Presenta una superficie rugosa, negra y sumamente característica. Su perfil es el más complejo y redondo de la familia Piper nigrum, ya que combina el picor punzante y limpio de la piperina concentrada en su núcleo con las notas cítricas, amaderadas, florales y frescas que retiene el pericarpio (la piel exterior) al oxidarse y secarse. Posee una gran persistencia en boca que realza los sabores circundantes."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Condimento universal de mesa y pilar en la elaboración de caldos, estofados, adobos, embutidos y salsas clásicas del mundo (como la emblemática Cacio e Pepe italiana). Es un componente crucial en mezclas como el Garam Masala. TECNICA GASTRONOMICA: Sus aceites esenciales y compuestos volátiles se disipan velozmente ante el calor extremo y el oxígeno. Por ello, la regla de oro culinaria exige moler el grano entero estrictamente al momento de servir o hacia el final de la cocción para preservar su abanico aromático intacto."
+      }
+    ]
+  },
+  {
+    "id": "spice_pimienta_verde",
+    "title": "Pimienta Verde",
+    "flag": "🇮🇳",
+    "category": "herbal",
+    "introduction": "Baya inmadura y fresca de la planta Piper nigrum, nativa de la Costa de Malabar en la India, valorada por su perfil aromatico sutil, fresco y notablemente herbal.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Proviene de la misma planta que la pimienta negra y blanca, la Piper nigrum, originaria de la Costa de Malabar al suroeste de la India. Representa el eslabon inicial de la cosecha, recolectandose cuando los granos estan completamente verdes e inmaduros. Para evitar que la baya se oxide, se arrugue y se transforme en pimienta negra debido a las enzimas ambientales, requiere un procesamiento tecnico inmediato tras su cosecha, sumergiendola en salmueras, vinagres o sometiendola a un proceso de liofilizacion."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Es la mas suave y fresca de las tres variantes de la Piper nigrum. Su nivel de picor es notablemente menor debido a que la piperina aun no se ha concentrado por completo en el nucleo. En su lugar, despliega un perfil intensamente herbal, frutal y citrico, con una textura tierna y jugosa cuando se conserva en medio liquido, lo que permite morder el grano entero de forma agradable sin saturar las papilas gustativas."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es la gran protagonista de la cocina clasica internacional en salsas emulsionadas para carnes rojas y aves, como la emblematica 'salsa a la pimienta verde' con base de crema y cognac. Tambien funciona de manera excelente en terrinas, pates, platos de pescado e incluso en marinadas de frutas exoticas. TECNICA GASTRONOMICA: Al ser un grano tierno, se añade entero o apenas machacado directamente en las salsas durante los ultimos minutos de reduccion, logrando que libere su jugo citrico y herbal de forma armonica."
+      }
+    ]
+  },
+  {
+    "id": "spice_pimienta_rosa",
+    "title": "Pimienta Rosa",
+    "flag": "🇦🇷🇧🇷",
+    "category": "aromatico",
+    "introduction": "Bayas secas de los árboles Schinus molle (Aguaribay) y Schinus terebinthifolius (Turbinto). No son pimientas auténticas, sino drupas de la familia Anacardiaceae.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "El Aguaribay es nativo de la región andina y el Cono Sur (Argentina/Perú), mientras que el Turbinto proviene del área subtropical de Brasil. Ambos se han naturalizado globalmente como 'falsos pimenteros' por la similitud de su fruto con la pimienta negra."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Aroma resinoso, dulce y cítrico. El Aguaribay tiende a ser más rústico y levemente picante, con notas que recuerdan al pino. El Turbinto es más delicado, frutal y estético. Ninguna posee piperina; su carácter es puramente aromático y volátil."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Indispensable en la 'Pimienta de las 4 estaciones'. Por su fragilidad, se usa entera o apenas machacada en carpaccios, pescados blancos y coctelería premium (Gin Tonic). Nota técnica: Su alto contenido en aceites esenciales requiere que no se someta a cocciones prolongadas para evitar que el sabor resinoso se torne amargo."
+      }
+    ]
+  },
+  {
+    "id": "spice_ras_el_hanout",
+    "title": "Ras el Hanout",
+    "flag": "🇲🇦",
+    "category": "mezcla",
+    "introduction": "Mezcla maestra de especias tradicional del norte de Africa, especialmente de Marruecos, cuyo nombre significa la cabeza de la tienda, haciendo referencia a lo mejor que el vendedor tiene para ofrecer.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Originaria del norte de Africa, con un arraigo cultural profundo en Marruecos. Al no poseer una receta fija o canonica, representa el sello de identidad de cada comerciante o tienda de especias, quienes seleccionan cuidadosamente los elementos para confeccionar su propia version de gala."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Sabor intenso, especiado, lleno de caracter y con matices que pueden ir desde lo sutilmente dulce hasta lo picante. Su aroma es profundo, calido y exotico, logrado a traves de una compleja combinacion que suele integrar entre 10 y 30 especias distintas, incluyendo canela, jengibre, curcuma, comino, pimienta negra, pimenton, clavo, nuez moscada, cardamomo y elementos florales como petalos de rosa o lavanda."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Se utiliza en pequeñas cantidades para transformar tajines, cuscus, guisos, arroces, sopas, carnes o verduras asadas. METODOS DE APLICACION: Se puede espolvorear directamente sobre las proteinas o vegetales antes de la coccion, añadir al principio de los guisos para que las especias liberen todo su aroma con el calor, o diluir en aceite de oliva para crear adobos y marinados de pollo, cordero o ternera. Tambien funciona tecnicamente al mezclarse con yogur para diseñar salsas frias, o untado sobre pan con aceite como aperitivo."
+      }
+    ]
+  },
+  {
+    "id": "spice_shichimi",
+    "title": "Shichimi Togarashi",
+    "flag": "🇯🇵",
+    "category": "picante",
+    "introduction": "Mezcla de especias japonesa cuyo nombre significa literalmente siete chiles con sabor. Fuera de Japon se le conoce de forma simplificada como Shichimi o Togarashi.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Pilar fundamental de la gastronomia japonesa. Es un alimento basico de su despensa que funciona de forma habitual como condimento de mesa multiuso, ubicandose tradicionalmente junto a la salsa de soja en los restaurantes. Fuera de Japon se comercializa en botellas rojas caracteristicas, disponibles principalmente en tiendas de productos asiaticos y establecimientos especializados en insumos para sushi o ramen."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Ofrece un perfil complejo que combina notas picantes, citricas y un sutil sabor a mar que aporta un exceptional caracter umami. Los chiles rojos secos constituyen el ingrediente principal de la mezcla. Su composicion varia segun el fabricante o la region, pero la formula general integra granos de pimienta sansho, semillas de cañamo, semillas de sesamo blanco y/o negro, alga nori y cascara de mandarina, naranja, limon o lima, pudiendo incluir tambien jengibre y ajo."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Funciona a la perfeccion como plus de sabor final espolvoreado sobre fideos tradicionales (Udon, Ramen o Soba), platos con caldo (tofu hervido, gyudon), carnes a la parrilla como el Yakitori de pollo, o platos con mariscos. Su versatilidad le permite adaptarse de gran manera a recetas occidentales como pollo frito, papas fries, sopas, arroces, ensaladas e incluso palomitas de maiz, dependiendo del gusto y la creatividad del comensal."
+      }
+    ]
+  },
+  {
+    "id": "spice_sumaque",
+    "title": "Sumaque",
+    "flag": "🇹🇷",
+    "category": "aromatico",
+    "introduction": "Especia obtenida de las bayas rojas y deshidratadas del arbusto Rhus coriaria, venerada en la cocina de Medio Oriente por su excepcional acidez natural.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las regiones mediterraneas, el sur de Europa y, de forma muy extendida, de todo el Medio Oriente e Iran. Ha sido utilizado desde la antiguedad clasica grecorromana como un agente acidificante fundamental antes de que los limones se introdujeran de forma masiva en la cuenca del Mediterraneo. Hoy en dia sigue siendo un pilar indispensable en las gastronomias de Turquia, Libano, Siria e Irak."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Presenta un color purpura rojizo muy vibrante y una textura de polvo grueso y ligeramente humedo. Su perfil es sumamente fresco, frutal y marcadamente acido, evocando de manera directa las notas del jugo de limon pero sin aportar liquidos a la preparacion. Esta acidez limpia y astringente se debe a la alta presencia de acidos organicos (como el malico y el citrico) en el pericarpio de la baya."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el componente estelar de la mezcla de especias Zaatar y el condimento tradicional para espolvorear sobre hummus, kebabs, arroces, ensaladas como la Fattoush y cebollas cortadas en pluma. TECNICA GASTRONOMICA: Al igual que el limon, funciona como un corrector de acidez y un potente potenciador de sabores. Al ser termosensible, se utiliza principalmente en crudo como un toque de acabado final justo antes de servir, o bien frotado directamente sobre carnes de cordero o aves antes de llevarlas a la parrilla."
+      }
+    ]
+  },
+  {
+    "id": "spice_tahini",
+    "title": "Tahini",
+    "flag": "🇱🇧",
+    "category": "mezcla",
+    "introduction": "Pasta fluida y oleosa obtenida a partir de la molienda de semillas de sesamo o ajonjoli (Sesamum indicum), pilar fundamental e identitario de la gastronomia del Libano.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Originario del Libano, pais que se posiciona historicamente como el epicentro cultural de su desarrollo culinario y el estandar de oro mundial en su elaboracion. Desde las tierras libanesas, este aderezo se expandio con fuerza convirtiendose en un ingrediente imprescindible en toda la cuenca del Mediterraneo Oriental, El Medio Oriente, los Balcanes y el norte de Africa."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Posee una textura cremosa, densa y una consistencia fluida pero sedosa en el paladar. Su color varia entre el beige claro y el dorado suave. En boca despliega un sabor profundamente untuoso, tostado y con un marcado matiz a frutos secos (evocando a la nuez), acompañado de un sutil y caracteristico amargor final que le otorga complejidad organoleptica. Al carecer de agua en su composicion pura, mantiene una estabilidad oleica prolongada."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Componente obligatorio y aglutinante en la elaboracion del hummus clasico y del baba ganoush (puré de berenjenas), ademas de ser la base de la famosa salsa Taratur. Tambien se utiliza en la reposteria tradicional para confeccionar el halva. TECNICA GASTRONOMICA: Al emulsionarse con liquidos acuosos como jugo de limon o agua, la pasta sufre una reaccion fisica que la vuelve blanca y espesa de forma instantanea. Para lograr la textura perfecta en salsas, se recomienda añadir el agua fria de manera gradual mientras se bate enérgicamente."
+      }
+    ]
+  },
+  {
+    "id": "spice_zaatar",
+    "title": "Z'atar",
+    "flag": "🇱🇧",
+    "category": "mezcla",
+    "introduction": "Mezcla de especias y hierbas silvestres originaria de la region del Levante, considerada un pilar identitario de la cultura gastronomica del Mediterraneo Oriental.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Ampliamente arraigado en la region del Levante, con el Libano, Siria, Jordania y Palestina como sus maximos exponentes historicos. La palabra zaatar denomina en arabe tanto a la mezcla como al tomillo silvestre o mejorana que le da origen botnico, una planta que crece de forma espontanea en las colinas de la cuenca mediterranea. Su consumo esta ligado al desayuno tradicional y a la hospitalidad de los hogares de la region."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Presenta una textura rustica donde se aprecian las hojas secas trituradas y las semillas enteras. Su perfil organoleptico es excepcionalmente complejo, equilibrando notas profundamente herbales, terrosas y amaderadas procedentes del tomillo o la mejorana, con la acidez frutal y punzante del sumaque, y el caracter oleoso y tostado de las semillas de sesamo. El resultado en boca es fresco, astringente, sutilmente salado y muy aromatico."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el ingrediente estelar del Manousheh (el famoso pan plano libanes que se hornea con la mezcla encima). Se utiliza para condimentar labneh, quesos frescos como el halloumi o feta, hummus, vegetales asados, pollo y carnes de cordero. TECNICA GASTRONOMICA: Su maxima expresion se logra al combinarlo en partes iguales con un aceite de oliva virgen extra de buena calidad, formando una pasta suelta que se usa como dip para mojar pan pita caliente. Tambien funciona como adobo seco en frotados previos a la coccion al horno o parrilla."
+      }
+    ]
+  },
+  {
+    "id": "spice_curcuma",
+    "title": "Cúrcuma",
+    "flag": "🇮🇳",
+    "category": "aromatico",
+    "introduction": "Rizoma subterraneo de la planta Curcuma longa, perteneciente a la familia del jengibre, venerado por su intenso color amarillo dorado y sus propiedades medicinales.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativa del suroeste de la India, region que actualmente concentra mas del ochenta por ciento de la produccion mundial y donde se consume desde hace mas de cuatro mil años como elemento sagrado en rituales hinduistas, ademas de su uso culinario. A traves de las rutas comerciales de las especias, su cultivo y molienda se extendieron con exito por todo el sudeste asiatico, el norte de Africa y las islas del Caribe."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Posee un aroma calido, amaderado y con notas sutilmente citricas que recuerdan al jengibre fresco. En boca ofrece un sabor terroso, ligeramente amargo y almizclado, con una pungencia muy suave. El compuesto quimico responsable de su caracteristico color amarillo brillante y de su perfil organoleptico es la curcumina, un potente polifenol antioxidante concentrado en el corazon del rizoma deshidratado."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el ingrediente indispensable que aporta color y base terrosa al curry en polvo, al Garam Masala y a multiples platos de arroz, legumbres y mostazas comerciales. Tambien es la base de la 'leche dorada' o Golden Milk. TECNICA GASTRONOMICA: La curcumina es un compuesto liposoluble, lo que significa que libera su maximo potencial de color y sabor cuando se cocina brevemente en una materia grasa (como aceite o ghee) al inicio de la preparacion. Tip de absorcion: Se recomienda combinarla siempre con una pizca de pimienta negra, ya que la piperina multiplica de forma exponencial la biodisponibilidad de sus propiedades en el organismo."
+      }
+    ]
+  },
+  {
+    "id": "spice_locoto",
+    "title": "Locoto",
+    "flag": "🇧🇴",
+    "category": "picante",
+    "introduction": "Fruto intensamente picante obtenido de la planta Capsicum pubescens, pilar fundamental de la identidad gastronomica y los ajies de la region andina.",
+    "sections": [
+      {
+        "title": "Origen y Geografía",
+        "content": "Nativo de las regiones montañosas de los Andes, principalmente de Bolivia y Peru, donde se cultiva y consume desde la epoca preincaica (con registros arqueologicos que datan de miles de años). A diferencia de otras variedades del genero Capsicum, es una de las pocas plantas de aji que tolera temperaturas bajas y climas de altura, lo que permitio su arraigo absoluto en la cocina precolombina de montaña."
+      },
+      {
+        "title": "Perfil Sensorial",
+        "content": "Se diferencia visualmente de manera radical por tener semillas de color negro intenso en su interior y hojas con vellosidades. Su carne es gruesa, jugosa y de paredes anchas, muy similar a la de un morron pequeño. Despliega un picor potente, punzante y de aparicion inmediata en boca, pero que se equilibra con un perfil sorprendentemente frutal, dulce y refrescante, lo que genera una experiencia de pungencia jugosa unica en su tipo."
+      },
+      {
+        "title": "Usos comunes",
+        "content": "Es el alma mater de la llajua boliviana (la salsa picante de mesa por excelencia machacada en batan junto al tomate) y la base del rocoto relleno peruano, ademas de emplearse fresco en tiraditos, ceviches y guisados andinos. TECNICA GASTRONOMICA: Debido a la textura carnosa de sus paredes, es ideal para consumir en crudo, picado finamente o licuado en salsas frescas. Si se desea reducir de forma drastica su nivel de picor para rellenarlo o usarlo en guisos, se deben retirar por completo las venas y las semillas negras, sometiendo el fruto a tres hervores sucesivos en agua con sal y azucar, cambiando el liquido en cada proceso."
+      }
+    ]
+  }
+]

@@ -1,0 +1,607 @@
+[
+  {
+    "id": "receta_1",
+    "title": "Hummus",
+    "category": "Dips",
+    "image": "fotos-receta/Hummus.png",
+    "ingredients": [
+      "200g de garbanzos (secos/remojados o 1 lata)",
+      "1 diente de ajo",
+      "1 cucharada de Tahini",
+      "1/4 de cucharadita de comino",
+      "Jugo de limón (c/n)",
+      "Aceite de oliva (c/n)",
+      "Sal (a gusto)",
+      "Pimienta (a gusto)",
+      "Pimentón dulce (a gusto)",
+      "Ají molido (a gusto)",
+      "Perejil fresco para decorar"
+    ],
+    "instructions": "Disponer los garbanzos, el diente de ajo y el tahini en el recipiente del mixer o procesadora.,Incorporar el comino y el jugo de limón.,Procesar los ingredientes mientras se añade el aceite de oliva en forma de hilo hasta alcanzar una emulsión homogénea y la textura deseada.,Realizar el control de calidad organoléptico y corregir sazón con sal, pimienta, pimentón y ají molido si fuera necesario.,Emplatar decorando con pimentón excedente, un chorrito de aceite de oliva y perejil picado.",
+    "authorComments": "Sustitución técnica: En ausencia de Tahini, utilizar semillas de sésamo blanco tostadas para mantener el perfil de sabor. Sugerencia de servicio: acompañar con bastoncitos de zanahoria (crudos para mayor crocancia) o nachos."
+  },
+  {
+    "id": "receta_2",
+    "title": "Pizza de Jamón Crudo y Vegetales Salteados",
+    "category": "Plato Principal",
+    "image": "fotos-receta/pizza-jamon-crudo.png",
+    "ingredients": [
+      "Prepizza",
+      "Salsa para pizza (c/n)",
+      "Queso mozzarella 200 g",
+      "Jamón crudo 100 g",
+      "Cebollas de verdeo (c/n)",
+      "Pimiento amarillo",
+      "verde y rojo (1/4 de cada uno)",
+      "Tomate redondo (1 unidad)",
+      "Sal especiada",
+      "mix de pimientas y provenzal",
+      "Aceite de oliva"
+    ],
+    "instructions": "1. Picar finamente las cebollas de verdeo. Cortar los pimientos en cubos pequeños y el tomate en rodajas finas.\n2. Saltear las cebollas en aceite de oliva, salpimentar y agregar los pimientos hasta que estén tiernos.\n3. Precalentar la prepizza con la salsa en horno fuerte.\n4. Distribuir el salteado de cebolla y pimientos sobre la base, cubrir con la mozzarella y hornear hasta que se fundit.\n5. Retirar del horno y colocar las fetas de jamón crudo desplegadas y las rodajas de tomate encima.\n6. Salpimentar los tomates, espolvorear con provenzal y rociar con un hilo de aceite de oliva.\n7. Hornear un par de minutos finales para atemperar el jamón y servir.",
+    "authorComments": "Nota técnica: El jamón crudo se coloca al final para que no se seque ni se ponga demasiado salado con el calor excesivo. El salteado previo de los pimientos asegura que aporten su dulzor característico sin quedar crudos en la pizza."
+  },
+  {
+    "id": "receta_3",
+    "title": "Matambrito de Cerdo Relleno con Ciruelas y Almendras",
+    "category": "Plato Principal",
+    "image": "fotos-receta/matambrito-cerdo.png",
+    "ingredients": [
+      "Matambrito de cerdo 1",
+      "Ciruelas pasas (c/n)",
+      "Almendras (c/n)",
+      "Limón 1",
+      "Estragón",
+      "Sal con curry",
+      "Pimienta verde",
+      "Zanahoria (opcional en receta",
+      "omitida en imagen)",
+      "Puré de boniato (para acompañar)"
+    ],
+    "instructions": "1. Desgrasar y emparejar el matambre. Sazonar con sal con curry y pimienta verde por el lado interno.\n2. Marinar en jugo de limón con estragón a gusto y reservar.\n3. Rellenar alternando filas de ciruelas pasas y almendras (y zanahoria en juliana si se desea).\n4. Doblar el matambre por la mitad para cerrar el relleno, asegurar con palillos y sellar en plancha caliente por ambos lados.\n5. Envolver en papel aluminio y hornear a temperatura media durante 30 minutos.\n6. Para la salsa: Picar la cebolla y saltear en aceite de oliva. Agregar sal, condimento con hongos y pimentón.\n7. Disolver la fécula en un poco de agua fría, agregar a la cebolla junto con agua caliente y nuez moscada, revolviendo hasta espesar.\n8. Servir rodajas del matambrito sobre una base de la salsa de hongos, acompañado del puré de boniato.",
+    "authorComments": "Este plato es una verdadera delicia agridulce que marida de forma excepcional con un vino tinto de cuerpo medio o un rosado fresco. La combinación de la textura crujiente de las almendras con la suavidad de las ciruelas y la carne de cerdo es perfecta."
+  },
+  {
+    "id": "receta_4",
+    "title": "Empanada Gallega ",
+    "category": "Plato Principal",
+    "image": "fotos-receta/empanada-gallega.png",
+    "ingredients": [
+      "Pimiento rojo mediano 1 (previamente asado)",
+      "Cebolla mediana 1",
+      "Ajo 1 diente",
+      "Tomates medianos 2",
+      "Caballa o Jurel 1 lata",
+      "Masa para pascualina de hojaldre 1",
+      "Sal",
+      "pimienta y pimentón (c/n)"
+    ],
+    "instructions": "1. Cortar el pimiento asado en cuadraditos y picar el ajo. Cortar la cebolla en pluma (a lo largo), no muy fina.\n2. Cortar los tomates en cubos pequeños, sin semillas y pelados si se prefiere.\n3. Limpiar el pescado quitando espinas y desmenuzar con las manos.\n4. Rehogar la cebolla hasta que esté cristalina. Agregar el ajo y el pimiento.\n5. Incorporar el tomate y el pescado. Condimentar con sal, pimienta y un buen pimentón (dulce o picante).\n6. Cocinar a fuego bajo por 10 minutos y dejar entibiar.\n7. Forrar una tartera aceitada con la masa, verter el relleno, tapar con la otra capa de masa y cerrar.\n8. Hornear en horno precalentado hasta que la masa esté bien dorada.",
+    "authorComments": "Aclaración técnica: Aunque se denomine empanada por tradición gallega, su formato es de tarta. El uso de pimiento previamente asado le da un sabor ahumado que realza mucho el pescado en conserva."
+  },
+  {
+    "id": "receta_1759076883499",
+    "title": "Portobellos Rellenos con Langostinos al Ron",
+    "category": "Entradas",
+    "image": "fotos-receta/portobellosM&T.png",
+    "ingredients": [
+      "4 Hongos Portobello grandes",
+      "1 cebolla mediana",
+      "200g de langostinos",
+      "Ron blanco (c/n para flambear)",
+      "Aceite de oliva",
+      "Sal y pimienta",
+      "Opcional: Queso rallado o mozzarella"
+    ],
+    "instructions": "1. Lavar y secar los hongos. Quitar los cabitos y reservarlos.\n2. Picar finamente la cebolla y los cabitos de los hongos.\n3. Limpiar los langostinos (quitar vena dorsal) y picar. Si son congelados, secar bien antes de usar.\n4. Saltear langostinos en aceite de oliva a alta temperatura. Flambear con el ron blanco. Una vez apagada la llama, retirar y reservar.\n5. Rehogar cebolla hasta que esté transparente. Agregar los cabitos picados y los langostinos flambeados. Cocinar unos minutos hasta tiernizar y ajustar sazón.\n6. Salpimentar los Portobellos y rellenar con la preparación.\n7. Opcional: Coronar con queso rallado.\n8. Hornear en recipiente cubierto con papel aluminio por 10 minutos a horno bien caliente.",
+    "authorComments": "Maridaje sugerido: Vino Rosé entre 6 y 12°C. Nota técnica: El flambeado con ron aporta notas dulces y elimina el exceso de grasa, mientras que el horneado tapado mantiene la humedad del hongo."
+  },
+  {
+    "id": "receta_1759077355052",
+    "title": "Mermelada de frutilla light al microondas",
+    "category": "Dulces",
+    "image": "fotos-receta/mermelada-frutilla-light.png",
+    "ingredients": [
+      "Frutillas: 1 Kg",
+      "Jugo de limón: 1 cda.",
+      "Hileret Light: 150 g (sobres)",
+      "Azúcar común: 100g"
+    ],
+    "instructions": "1. Lavar y despalillar las frutillas. Cocinar 7 min en microondas al 100%.\n2. Procesar con el limón y el azúcar hasta formar una pasta homogénea.\n3. Cocinar de 20 a 24 min adicionales al 100%, removiendo cada 5 min con cuchara de madera.\n4. Dejar atemperar y envasar aún caliente.",
+    "authorComments": "Nota técnica: La sustitución parcial con Hileret Light requiere un control estricto de la evaporación en microondas para lograr la viscosidad deseada. Dejar algunas frutillas enteras al procesar para mejorar el perfil sensorial."
+  },
+  {
+    "id": "receta_1759077859617",
+    "title": "Biancomangiare",
+    "category": "Postres",
+    "image": "fotos-receta/biancomangiare.png",
+    "ingredients": [
+      "Almidón de maíz: 45 g",
+      "Hileret light: 30 g (o azúcar común: 60 g)",
+      "Leche de almendras: 500 cc"
+    ],
+    "instructions": "Colocar la fécula (almidón) de maíz en un bol.,Agregar el Hileret light o el azúcar común según la opción elegida.,Verter lentamente la leche de almendras mientras se mezcla continuamente con un batidor para evitar grumos.,Traspasar la mezcla a una olla y llevar a fuego medio hasta que rompa el hervor.,Retirar del fuego y batir un par de minutos hasta que baje la temperatura.,Dosificar en moldes individuales y dejar enfriar a temperatura ambiente antes de refrigerar.",
+    "authorComments": "Servir con caramelo líquido y almendras picadas o chocolate cobertura. Tip de eficiencia: Se puede reemplazar la leche de almendras por leche de coco y agregar coco rallado durante la cocción."
+  },
+  {
+    "id": "receta_1759168688190",
+    "title": "Dulce de membrillo light al microondas",
+    "category": "Dulces",
+    "image": "fotos-receta/dulce-membrillo-light1.png",
+    "ingredients": [
+      "Membrillos: 1.300 g",
+      "Azúcar blanco: 230g",
+      "Endulzante Hileret: 190g",
+      "Gasa o lienzo limpio (para carozos)"
+    ],
+    "instructions": "1. Pelar parcialmente y trocear membrillos. Microondas 10 min.\n2. Incorporar azúcar, endulzante y carozos envueltos en gasa.\n3. Cocinar 20 min más revolviendo cada 5 min.\n4. Desmoldar en vidrio y estacionar 15-20 días.",
+    "authorComments": "Nota técnica: La gasa con los carozos es el reactor de pectina natural. El estacionamiento es fundamental para la estructura final del dulce. Podés agregar nueces antes del moldeado."
+  },
+  {
+    "id": "receta_1759168931966",
+    "title": "Pimientos agridulces",
+    "category": "Conservas y Acompañamientos",
+    "image": "fotos-receta/pimientos-agridulces2.png",
+    "ingredients": [
+      "Pimiento rojo: 1 unidad",
+      "Pimiento verde: 1 unidad",
+      "Pimiento amarillo: 1 unidad",
+      "Azúcar común: 1 taza",
+      "Vinagre de alcohol o manzana: 1 taza",
+      "Aceite de girasol u oliva: 1 taza",
+      "Granos de pimienta negra (opcional): c/n",
+      "Laurel (opcional): 1 o 2 hojas"
+    ],
+    "instructions": "Lavar los pimientos (morrones) y cortarlos en tiras longitudinales de 1 cm de espesor aproximadamente.,En una olla, disponer los pimientos y adicionar los reactivos líquidos y solutos: el vinagre, el azúcar, el aceite, junto con los aromatizantes (pimienta y laurel si se utilizan).,Llevar a fuego fuerte con la olla tapada hasta alcanzar el punto de ebullición.,Al romper el hervor, destapar parcialmente la olla para permitir la evaporación controlada. Cocinar hasta lograr el punto de textura deseado (se sugiere consistencia al dente/crujiente). Retirar del fuego.,Dejar entibiar la preparación a temperatura ambiente.,Proceder al envasado en frascos estériles, en caliente, asegurando siempre una fase superior de aislamiento de 1 cm de aceite por encima de la superficie de los pimientos para evitar la oxidación.Cerrar herméticamente y dejar enfriar a temperatura ambiebte para forzar el vacío por contracción térmica del aire remanente.",
+    "authorComments": "Consumo inmediato apto, aunque el perfil organoléptico óptimo se alcanza tras un período de maduración de 7 a 10 días. Maridaje excelente con cortes de carne vacuna asada, a la plancha o carne de cerdo."
+  },
+  {
+    "id": "receta_1759169379779",
+    "title": "Dip de porotos negros",
+    "category": "Dips ",
+    "image": "fotos-receta/dip-porotos-negros.png",
+    "ingredients": [
+      "1 lata de porotos negros (aprox. 400g)",
+      "1 diente de ajo",
+      "Ras-el-hanut (a gusto)",
+      "Jugo de limón (a gusto)",
+      "Aceite de oliva (a gusto)",
+      "Sal (a gusto)",
+      "Pimienta y ají molido (a gusto)"
+    ],
+    "instructions": "Escurrir los porotos negros y colocarlos en la procesadora o bol de mixeo.,Añadir el diente de ajo, el jugo de limón y el Ras-el-hanut.,Procesar incorporando el aceite de oliva en forma de hilo hasta lograr una textura cremosa y homogénea.,Rectificar la sazón con sal, pimienta y ají molido según el perfil de sabor deseado.",
+    "authorComments": "Maridaje sugerido: Ideal para acompañar con una cerveza roja. Para un snack saludable, reemplazar los nachos por bastoncitos de zanahoria cruda."
+  },
+  {
+    "id": "receta_1759169565310",
+    "title": "Dip de remolachas",
+    "category": "Dips ",
+    "image": "fotos-receta/dip-remolachas.png",
+    "ingredients": [
+      "1 unidad de remolacha (hervida) o 1 lata",
+      "1 diente de ajo",
+      "Jugo de limón (c/n)",
+      "Aceite de oliva (c/n)",
+      "Sal (a gusto)",
+      "Pimienta (a gusto)",
+      "Pimentón dulce (a gusto)",
+      "Ají molido (a gusto)"
+    ],
+    "instructions": "Trocear la remolacha y colocarla en el vaso de la procesadora o mixer junto con el diente de ajo.,Incorporar el jugo de limón y procesar hasta obtener una pasta base.,Añadir el aceite de oliva en forma de hilo mientras se continúa mixeando hasta lograr la emulsión y textura deseada.,Realizar el control de sazón y corregir con sal, pimienta, pimentón y ají molido según sea necesario.",
+    "authorComments": "Sugerencia de presentación: Decorar con toppings de frutos secos picados, cilantro fresco o un chorrito de yogur natural. Tip: Ideal para dipear con bastoncitos de zanahorias."
+  },
+  {
+    "id": "receta_1759169711451",
+    "title": "Bruschetta de rúcula con peras y queso azul",
+    "category": "Entradas",
+    "image": "fotos-receta/Bruschetta_peras.png",
+    "ingredients": [
+      "2 Peras",
+      "1 cda de Azúcar rubio o mascabo",
+      "1 atado de Rúcula",
+      "150g de Queso azul",
+      "Rodajas de pan para tostar",
+      "Aceite de oliva",
+      "Opcional: Nueces picadas"
+    ],
+    "instructions": "1. Pelar las peras y cortarlas en cubos.\n2. Saltear las peras en una sartén. Agregar el azúcar rubio y cocinar hasta que se disuelva y caramelice levemente. Reservar.\n3. Tostar las rodajas de pan y rociar con un chorrito de aceite de oliva.\n4. En un bol, mezclar la rúcula cortada con el queso azul en dados.\n5. Armar las bruschettas colocando la mezcla de rúcula y queso sobre el pan tostado.\n6. Coronar con los cubos de pera caramelizados y, opcionalmente, nueces picadas.",
+    "authorComments": "Tip: El contraste entre el dulzor de la pera caramelizada y el fuerte del queso azul es la clave técnica de esta entrada. Las nueces aportan la textura crocante necesaria."
+  },
+  {
+    "id": "receta_1759169980990",
+    "title": "Pollo Relleno con Piñones y Hongos de Pino",
+    "category": "Plato Principal",
+    "image": "fotos-receta/pollo-relleno1.png",
+    "ingredients": [
+      "Pollo entero 1 (deshuesado sin pechuga)",
+      "Carne molida 200g",
+      "Cebolla 1 unidad",
+      "Pimiento morrón rojo 1 unidad",
+      "Ajo 1 diente",
+      "Hongos de pino (c/n)",
+      "Piñones 100g",
+      "Aceite de oliva (c/n)",
+      "Sal",
+      "pimentón dulce y Merkén (a gusto)"
+    ],
+    "instructions": "1. Deshuesar el pollo retirando la pechuga y reservar la estructura para rellenar. \n2. Hidratar los hongos de pino en agua tibia y picar. \n3. Picar la cebolla y el pimiento en brunoise. Saltear en oliva. \n4. Incorporar el ajo picado y la carne molida. Cocinar hasta disgregar y dorar levemente. \n5. Agregar los piñones y los hongos picados al sofrito. Mezclar y dejar entibiar. \n6. Salpimentar el pollo internamente y rellenar con el picadillo preparado. \n7. Cerrar el pollo y cocinar en horno precalentado (aprox. 180°C) durante 1 hora. \n8. Tip: Utilizar bolsa para horno para optimizar la transferencia de calor y retención de humedad.",
+    "authorComments": "El Merkén aporta un perfil ahumado que complementa la tierra de los hongos de pino. Si no hay piñones, las almendras peladas y tostadas mantienen la relación de textura necesaria."
+  },
+  {
+    "id": "receta_1759170198536",
+    "title": "Ensalada de hinojo y mango",
+    "category": "Ensaladas y Entradas",
+    "image": "fotos-receta/ensalada-hinojo-mango.png",
+    "ingredients": [
+      "Hinojo: 1 unidad",
+      "Mango: 1 unidad",
+      "Jugo de naranja: 1 unidad",
+      "Sal: c/n",
+      "Aceite de oliva: c/n",
+      "Tajín: c/n (a gusto)",
+      "Aceto balsámico blanco: c/n"
+    ],
+    "instructions": "Segmentar el hinojo en cuartos.,Saltear levemente el hinojo en una sartén con aceite de oliva. Adicionar sal para favorecer la deshidratación osmótica superficial.,Reducir el flujo térmico (bajar el fuego) e incorporar el jugo de naranja de forma gradual, evitando la evaporación instantánea del solvente líquido.,Cocinar hasta lograr la reducción del jugo y un ligero dorado por caramelización de azúcares. Retirar del fuego según el grado de ternura deseado.,Trocear el hinojo cocido y transferirlo a un bol junto con el mango previamente cortado en cubos (fase fría).,Condimentar y homogeneizar el sistema adicionando aceite de oliva, aceto balsámico blanco y el condimento Tajín.",
+    "authorComments": "Variante de proceso (Inversión térmica): Se puede realizar la operación inversa salteando el mango para flambearlo con ron, ensamblándolo finalmente con el hinojo en estado fresco y crujiente."
+  },
+  {
+    "id": "receta_1759170384667",
+    "title": "Ensalada de rúcula, peras y queso azul",
+    "category": "Ensaladas y Entradas",
+    "image": "fotos-receta/ensalada-rucula-peras.png",
+    "ingredients": [
+      "Peras: 2 unidades",
+      "Azúcar rubio o mascabo: 1 cda",
+      "Rúcula: 1 atado",
+      "Queso azul: 150 g",
+      "Sal: c/n",
+      "Aceite de oliva: c/n",
+      "Aceto de frutos rojos: c/n"
+    ],
+    "instructions": "Pelar las peras, remover las semillas y cortarlas en cubos medianos.,Disponer las peras en una sartén caliente para iniciar el salteado térmico.,Adicionar la cucharada de azúcar rubio o mascabo, manteniendo el aporte de calor hasta lograr la disolución del soluto y la caramelización superficial de las frutas. Retirar del fuego y reservar.,En un bol de mezclado, colocar las hojas de rúcula previamente higienizadas y troceadas.,Incorporar el queso azul cortado en dados a la matriz de hojas verdes.,Adicionar las peras caramelizadas reservadas (fase tibia).,Condimentar y homogeneizar el sistema con sal, aceite de oliva y el aceto de frutos rojos.",
+    "authorComments": "Optimización de textura: Se puede incorporar un puñado de nueces picadas al final del ensamble para aportar una fase crocante y ácidos grasos que complementen el perfil graso del queso azul."
+  },
+  {
+    "id": "receta_1760742764940",
+    "title": "Empanadas Árabes (Fatay)",
+    "category": "Entradas",
+    "image": "fotos-receta/fatay_arabes.png",
+    "ingredients": [
+      "1 Kg de carne molida",
+      "2 cebollas grandes",
+      "1 morrón rojo chico",
+      "1 morrón verde chico",
+      "2 tomates perita",
+      "2 dientes de ajo",
+      "Jugo de 4 a 6 limones",
+      "1 cda de Baharat (o mezcla de comino",
+      "canela",
+      "coriandro",
+      "cardamomo",
+      "pimienta y pimentón)",
+      "Menta",
+      "cilantro y perejil fresco (c/n)",
+      "2 cdtas de sal",
+      "Discos de empanada (tapa criolla)"
+    ],
+    "instructions": "1. Picar finamente las cebollas, los tomates, los pimientos y las hierbas frescas (menta, cilantro y perejil).\n2. En un bol grande, mezclar la carne molida con los vegetales picados, el Baharat, la sal y el jugo de limón.\n3. Tapar con film y dejar reposar en la heladera como mínimo 2 horas (esto realiza la 'cocción' química de la carne).\n4. Armar las empanadas dejando el centro levemente abierto o en forma de triángulo tradicional.\n5. Colocar en placas y llevar a horno máximo (180°C - 200°C) hasta que la masa esté dorada.",
+    "authorComments": "Tiempos: Reposo 2h | Horno 15'. Nota técnica: El reposo con abundante limón es fundamental para la textura y seguridad del relleno. Si no conseguís Baharat, la mezcla de canela y cardamomo es la que aporta el aroma auténtico de esta entrada."
+  },
+  {
+    "id": "receta_1760743497625",
+    "title": "Trufas de chocolate y palta",
+    "category": "Postres",
+    "image": "fotos-receta/trufas-palta-chocolate.png",
+    "ingredients": [
+      "Chocolate en barra (mínimo 70% cacao): 140 g",
+      "Pulpa de palta madura: 100 g",
+      "Esencia de vainilla: 1 cdta",
+      "Café instantáneo en polvo: 0.25 cdta",
+      "Endulzante líquido (opcional): 0.5 cdta",
+      "Ralladura de naranja",
+      "merkén o pimienta de cayena (aromatizante opcional): 0.5 cdta",
+      "Cacao amargo en polvo o coco rallado: c/n"
+    ],
+    "instructions": "Picar el chocolate finamente y derretir en microondas en intervalos de 15 segundos, agitando entre ciclos para homogeneizar la temperatura. Reservar hasta que entibie.,Procesar la pulpa de palta junto con la vainilla y el café instantáneo hasta obtener una emulsión (puré) completamente sedosa, libre de grumos macroscópicos.,Incorporar el chocolate derretido tibio a la matriz de palta. Mezclar con procesadora o batidor hasta lograr una fase homogénea. Añadir el endulzante y aromatizante opcional en este punto.,Refrigerar la mezcla durante un tiempo mínimo de 30 minutos para estabilizar las grasas y lograr la consistencia sólida necesaria.,Dosificar en porciones de 1 cucharadita, moldear esferas (trufas) y recubrir con el cacao amargo en polvo.,Almacenar el producto final bajo refrigeración en recipiente hermético. Estabilidad garantizada por hasta 3 días.",
+    "authorComments": "Variante de acabado: Se pueden rebozar en coco rallado en lugar de cacao. El toque de merkén o cayena potencia las notas amargas del cacao por contraste químico."
+  },
+  {
+    "id": "receta_1761343724845",
+    "title": "Chutney de duraznos",
+    "category": "Conservas y Acompañamientos",
+    "image": "fotos-receta/chutney-duraznos.png",
+    "ingredients": [
+      "Duraznos (cortados en cubos): 1 kg",
+      "Cebolla (picada): 1 unidad",
+      "Azúcar común: 300 g",
+      "Vinagre de alcohol: 250 ml",
+      "Jengibre rallado: 1 cdita",
+      "Cúrcuma: 1 cdita",
+      "Ají molido: 1 cdita",
+      "Sal fina: 1 cdita",
+      "Pasas de uva: c/n (a gusto)"
+    ],
+    "instructions": "Disponer en una olla la totalidad de los reactivos e ingredientes: los duraznos en cubos, la cebolla picada, el vinagre de alcohol, el azúcar, la cúrcuma, el ají molido, el jengibre rallado y la sal fina.,Homogeneizar la mezcla mediante agitación constante con cuchara de madera o espátula apta.,Llevar a fuego medio-fuerte hasta alcanzar el punto de ebullición, luego regular el flujo térmico.,Cocinar a fuego lento, agitando esporádicamente, hasta lograr una evaporación controlada y una consistencia de matriz viscosa similar a la de una mermelada.,Proceder al envasado inmediato en caliente en frascos estériles, completando el volumen total para desplazar el aire remanente y asegurar el sellado hermético por vacío térmico.",
+    "authorComments": "Al clasificarse técnicamente como un encurtido dulce/ácido, el producto no requiere tratamiento térmico posterior en autoclave. Estabilidad en estante garantizada hasta por 2 años. Nota de maduración: Almacenar en lugar oscuro por 7 días previo a la apertura para permitir la amalgama óptima de los compuestos volátiles."
+  },
+  {
+    "id": "1762860677285",
+    "title": "Muhamara",
+    "category": "Dips ",
+    "image": "fotos-receta/Muhamara.png",
+    "ingredients": [
+      "3 pimientos rojos grandes",
+      "1 cabeza de ajo",
+      "4 cdas de aceite de oliva",
+      "100g de nueces",
+      "1 cda de pimentón dulce y/o ahumado",
+      "2 cdas de pasta de tomate",
+      "1/2 taza de pan rallado (opcional)",
+      "Sal (a gusto)"
+    ],
+    "instructions": "Precalentar el horno a temperatura alta (aprox. 200-220°C).,Preparar la cabeza de ajo: realizar un corte transversal en la parte superior, colocar sobre papel aluminio, rociar con aceite de oliva y sellar el paquete.,Disponer los pimientos y el paquete de ajo en una fuente y hornear hasta que la piel de los pimientos esté ampollada y los ajos tiernos.,Retirar del horno, dejar atemperar y proceder al pelado de los pimientos (quitar semillas) y la extracción de la pulpa de los ajos.,Transferir los vegetales a la procesadora junto con las nueces, el pimentón, la pasta de tomate y el aceite restante.,Procesar mediante pulsos hasta obtener una pasta con textura granulada (evitar la sobre-emulsión para mantener la presencia de las nueces).,Incorporar pan rallado si se requiere mayor consistencia y rectificar sal.",
+    "authorComments": "Técnica de asado: El uso del papel aluminio para el ajo permite una cocción por conducción y vapor, logrando una textura de pasta ideal para la integración. Esta receta tiene un perfil organoléptico complejo debido a la reacción de Maillard en los pimientos."
+  },
+  {
+    "id": "1770666408284",
+    "title": "Vacío al Disco con Vegetales y Vino Tinto",
+    "category": "Plato Principal",
+    "image": "fotos-receta/vacio-al-disco.png",
+    "ingredients": [
+      "Vacío 4 Kg (en tiras)",
+      "Pimientos morrón 3 unidades",
+      "Cebollas 4 unidades",
+      "Puerros 4 unidades",
+      "Dientes de ajo 3 unidades",
+      "Zanahorias 4 unidades",
+      "Arvejas 2 latas",
+      "Vino tinto 1 litro",
+      "Caldo de verduras 2 litros",
+      "Aceite (c/n)",
+      "Sal",
+      "pimienta negra",
+      "ají molido y pimentón dulce (a gusto)"
+    ],
+    "instructions": "1. Cortar el vacío en tiras y sellar en el disco precalentado con aceite hasta dorar bien ambos lados. Reservar.\n2. En el mismo fondo de cocción, saltear las cebollas. Antes de que doren, incorporar el resto de los vegetales cortados en trozos medianos.\n3. Una vez que retome temperatura, verter el vino tinto y remover hasta que el alcohol evapore.\n4. Reincorporar la carne y agregar el caldo necesario.\n5. Cocinar a fuego constante durante una hora y media.\n6. Unos minutos antes de finalizar, agregar las arvejas.\n7. Nota: El caldo se elabora hirviendo los recortes de los vegetales con laurel por 30 minutos.",
+    "authorComments": "Una receta ideal para reuniones grandes. El secreto está en el sellado inicial de la carne y en usar un caldo casero hecho con los mismos recortes de los vegetales para potenciar el sabor."
+  },
+  {
+    "id": "1775663735608",
+    "title": "Bondiola de Cerdo con Salsa de Mango",
+    "category": "Plato Principal",
+    "image": "fotos-receta/bondiola-mango1.png",
+    "ingredients": [
+      "Bondiola de cerdo 6 churrascos",
+      "Mango maduro 1 unidad",
+      "Cebolla mediana 1 unidad",
+      "Vino blanco 1 vaso (dividido)",
+      "Aceite de oliva (c/n)",
+      "Sal y pimienta negra (a gusto para la carne)",
+      "Sal y pimienta blanca (a gusto para la salsa)"
+    ],
+    "instructions": "1. Para la salsa: Picar la cebolla en cubitos y rehogar en una sartén con oliva. \n2. Pelar el mango, cortarlo en trozos e incorporarlo cuando la cebolla esté transparente. \n3. Agregar 1/2 vaso de vino blanco y cocinar de 15 a 20 min hasta obtener consistencia de mermelada. \n4. Retirar, procesar hasta que quede una salsa suave y cremosa; reservar. \n5. Salpimentar los churrascos de bondiola y dorarlos en una plancha bien caliente de ambos lados. \n6. Agregar el 1/2 vaso de vino restante y cocinar hasta evaporar el alcohol. \n7. Opcional: Terminar en horno fuerte para reducir líquidos y concentrar sabores. \n8. Servir sobre un espejo de salsa de mango.",
+    "authorComments": "El contraste dulce del mango con el cerdo es excelente. Recomiendo acompañar con arroz jazmín o papas rústicas para equilibrar la cremosidad de la salsa."
+  },
+  {
+    "id": "1776179518267",
+    "title": "Arroz negro tropical",
+    "category": "Acompañamiento",
+    "image": "fotos-receta/arroz-tropical.png",
+    "ingredients": [
+      "Arroz jazmín negro: 1 taza",
+      "Cebolla (picada): 1 unidad",
+      "Escamas de coco: c/n (a gusto)",
+      "Leche de coco: c/n",
+      "Fécula de maíz (maicena): 1 cda"
+    ],
+    "instructions": "Efectuar la hidrólisis térmica del grano: Hervir el arroz jazmín negro utilizando una relación estequiométrica de 3 partes de agua por 1 parte de arroz. Retirar del gradiente térmico cuando esté al dente (aproximadamente entre 15 a 20 minutos), escurrir la fase líquida remanente y reservar.,En un reactor (sartén) aparte, rehogar la cebolla picada hasta lograr la transición de fase a un estado cristalino.,Adicionar el arroz reservado al reactor, homogeneizar mediante agitación y agregar las escamas de coco.,Disolver previamente la fécula de maíz en la leche de coco fría (para evitar la formación de grumos por gelatinización prematura) e incorporarla a la fase principal.,Rectificar la sazón y continuar con agitación constante hasta que el sistema espese por la activación del almidón.",
+    "authorComments": "Monitorear la gelatinización de la fécula al final para evitar sobrecocción. Las antocianinas del arroz negro pueden teñir levemente la emulsión de la leche de coco, dando un aspecto exótico y homogéneo al plato."
+  },
+  {
+    "id": "1776179865603",
+    "title": "Salmón a la Naranja y Mostaza Dijon",
+    "category": "Plato Principal",
+    "image": "fotos-receta/salmon-naranja.png",
+    "ingredients": [
+      "Lomos de salmón 4 unidades",
+      "Naranjas 2 unidades (jugo y ralladura)",
+      "Miel 1 cucharada",
+      "Mostaza de Dijon 1 cucharada",
+      "Ajo 1 diente (rallado)",
+      "Fécula de maíz 1 cucharada",
+      "Aceite de oliva (c/n)",
+      "Sal y pimienta (a gusto)"
+    ],
+    "instructions": "1. Preparación de la salsa: En un bol, integrar el jugo y ralladura de naranja, miel, mostaza, ajo y fécula de maíz. Batir hasta eliminar grumos.\n2. Sellado: Salpimentar los lomos. En sartén técnica bien caliente con oliva, sellar 3 min del lado de la piel hasta lograr reacción de Maillard; voltear y dorar brevemente.\n3. Cocción final: Retirar el salmón, verter la mezcla de la salsa en la misma sartén. Reincorporar los lomos y cocinar a fuego suave (low heat) por 4-5 min hasta que la salsa emulsione y espese por acción de la fécula.\n4. Emplatado: Servir inmediatamente para mantener la jugosidad del lomo.",
+    "authorComments": "Para un maridaje técnico perfecto, se recomienda servir sobre arroz negro tropical. El control de la temperatura en el último paso es crítico para no sobrecocer la proteína."
+  },
+  {
+    "id": "1776181082662",
+    "title": "Empanadas de Bondiola Braseada",
+    "category": "Entradas",
+    "image": "fotos-receta/empanadas-bondiola.png",
+    "ingredients": [
+      "1.5 Kg de bondiola (en churrascos de 1 cm)",
+      "1 Kg de cebollas",
+      "1 atado de puerros",
+      "1 pimiento rojo",
+      "Laurel (2-3 hojas)",
+      "Pimentón dulce y ají molido",
+      "Comino (c/n)",
+      "Sal y pimienta",
+      "Caldo de cocción reservado",
+      "Discos de empanada"
+    ],
+    "instructions": "1. Salpimentar la bondiola y dorar en olla. Agregar 1 cebolla en cuartos, laurel y cubrir con agua. Hervir por 2 horas aprox. hasta que esté tierna.\n2. Dejar enfriar y desmechar la carne. Reservar el caldo resultante.\n3. Rehogar el resto de las cebollas picadas junto con el puerro y el pimiento rojo.\n4. Cuando los vegetales estén cristalinos, incorporar la bondiola desmechada.\n5. Salpimentar y condimentar con abundante pimentón dulce, ají molido y comino. Cocinar unos minutos.\n6. Pasar a una fuente profunda, cubrir con el caldo reservado y dejar enfriar (idealmente 24 hs para que gelifique).\n7. Armar las empanadas y cocinar en horno precalentado a 180°C hasta dorar.",
+    "authorComments": "Tip técnico: El reposo de 24 horas con el caldo es el secreto para que al morder la empanada el relleno sea súper jugoso. El puerro aporta una dulzura sutil que equilibra la grasa de la bondiola."
+  },
+  {
+    "id": "1776870448795",
+    "title": "Dip de Berenjenas Asadas",
+    "category": "Dips ",
+    "image": "fotos-receta/dip-berenjenas.png",
+    "ingredients": [
+      "2 berenjenas grandes",
+      "2 tomates (sin semillas)",
+      "1 morrón rojo",
+      "1 cebolla morada",
+      "2 o 3 dientes de ajo",
+      "Aceite de oliva (c/n)",
+      "Comino (a gusto)",
+      "Pimentón (a gusto)",
+      "Ají molido (a gusto)",
+      "Sal (a gusto)",
+      "Perejil o cilantro fresco para decorar"
+    ],
+    "instructions": "Precalentar el horno a 230°C.,Pelar parcialmente las berenjenas (manteniendo franjas de cáscara para textura) y cortarlas en cubos.,Limpiar tomates y morrón (quitar semillas) y cortarlos en trozos grandes junto con la cebolla morada y los dientes de ajo.,Disponer los vegetales en una fuente, rociar con aceite de oliva y hornear durante 15 minutos.,Retirar momentáneamente para condimentar con comino, pimentón, ají molido y sal.,Hornear por 20 minutos adicionales hasta alcanzar el grado de dorado deseado (reacción de Maillard).,Procesar los vegetales brevemente; el objetivo es una textura rústica, evitando la formación de una pasta lisa.,Servir con un chorrito de aceite de oliva extra y el verde picado (perejil o cilantro).",
+    "authorComments": "Nota técnica: Es fundamental respetar la temperatura de 230°C para lograr la caramelización superficial sin sobrecocción interna. La textura rústica es clave para la experiencia sensorial del dipeo con pan tostado."
+  },
+  {
+    "id": "1776871717021",
+    "title": "Babaganush (Mutabal)",
+    "category": "Dips ",
+    "image": "fotos-receta/mutabal.png",
+    "ingredients": [
+      "2 berenjenas grandes",
+      "2 cdas de Tahini (pasta de sésamo)",
+      "2 dientes de ajo picados",
+      "Jugo de 1/2 limón",
+      "1/2 cdta de Comino molido",
+      "Aceite de oliva virgen extra (c/n)",
+      "Sal y pimienta (al gusto)",
+      "Pimentón dulce y perejil para decorar"
+    ],
+    "instructions": "Lavar las berenjenas y realizar perforaciones con tenedor para evitar la acumulación de presión interna por vapor.,Someter a tratamiento térmico: directamente sobre llama (hornalla) para maximizar el perfil ahumado, o en horno a 200°C hasta la carbonización de la epidermis y ablandamiento del parénquima.,Enfriar, realizar el pelado mecánico y drenar el exceso de fluido intersticial de la pulpa.,En un bol o procesadora, integrar la pulpa con el tahini, ajo, limón, comino y ajustar pH con sal y pimienta.,Procesar hasta alcanzar una reología de pasta con textura, evitando la sinéresis (separación de fases).,Emplatar con una película superficial de aceite de oliva y decorar con pimentón.",
+    "authorComments": "El factor diferencial es el ahumado. En procesos de horneado convencional, se puede dosificar humo líquido (cuidando la concentración) para replicar el perfil organoléptico de Oriente Medio."
+  },
+  {
+    "id": "1776876724049",
+    "title": "Postre de Leche Liviano (Estilo Leche Asada)",
+    "category": "Postres",
+    "image": "fotos-receta/leche-asada.png",
+    "ingredients": [
+      "Leche: 1 L",
+      "Huevos: 4 unidades",
+      "Harina: 50 g",
+      "Azúcar Hileret Light: 75 g (equivalente a 150 g de azúcar común)",
+      "Piel de limón: 0.5 unidad",
+      "Esencia de vainilla: 1 cda",
+      "Canela en rama (opcional): 1 unidad"
+    ],
+    "instructions": "En una olla, colocar la leche junto con la piel de limón (y la canela si se desea) y llevar a ebullición para infusionar. Retirar del fuego y dejar enfriar a temperatura ambiente.,Proceder a la separación de fases: separar las claras de las yemas.,Batir las yemas junto con el azúcar Hileret Light y la esencia de vainilla hasta lograr la disolución del soluto y el aclaramiento de la mezcla (blanqueado).,Incorporar la harina a la matriz de yemas y homogeneizar la mezcla de forma uniforme.,Retirar los sólidos (piel de limón y canela) de la leche fría e incorporarla gradualmente a la preparación anterior, agitando constantemente para evitar grumos.,Batir las claras a punto nieve (incorporación de aire) e integrarlas a la mezcla principal mediante movimientos envolventes para preservar la estructura neumática.,Verter la masa en un molde previamente enmantecado y revestido con papel manteca.,Hornear en horno precalentado a 170°C durante 45 minutos para la coagulación térmica de las proteínas.,Estabilizar a temperatura ambiente y luego transferir a refrigeración por un período mínimo de 3 horas antes de realizar el desmolde.",
+    "authorComments": "Receta optimizada para bajo contenido calórico usando edulcorante granulado. La textura final y la densidad del postre dependen críticamente del batido envolvente de las claras para mantener la microestructura de aire."
+  },
+  {
+    "id": "1777477407634",
+    "title": "Hummus de Aguacate y Cilantro",
+    "category": "Dips ",
+    "image": "fotos-receta/hummus-aguacate.png",
+    "ingredients": [
+      "400g de garbanzos cocidos (1 lata",
+      "enjuagados)",
+      "1 aguacate (palta) grande y maduro",
+      "1/2 taza de cilantro fresco (hojas y tallos tiernos)",
+      "60 ml de jugo de lima fresco (1/4 taza)",
+      "2 cdas de aceite de oliva virgen extra",
+      "1 diente de ajo",
+      "1/2 cdta de comino molido",
+      "1/2 cdta de sal fina",
+      "Pimienta negra recién molida (a gusto)",
+      "Copos de chile rojo (opcional",
+      "para decorar)"
+    ],
+    "instructions": "Introducir en el procesador de alimentos los garbanzos, la pulpa del aguacate, el cilantro, el jugo de lima, el aceite de oliva, el ajo y las especias.,Procesar a alta velocidad durante aproximadamente 2 minutos hasta obtener una mezcla homogénea y de textura sedosa.,Control de viscosidad: si la densidad es muy elevada, añadir agua o aceite en pequeñas dosis hasta lograr la reología deseada.,Realizar el control organoléptico y rectificar sazón (sal y pimienta).,Servir inmediatamente para minimizar la cinética de oxidación, decorando con aceite de oliva y los copos de chile.",
+    "authorComments": "Análisis químico: El ácido cítrico de la lima actúa como agente quelante y antioxidante, estabilizando los lípidos de la palta y preservando el color verde de la clorofila. Ideal para consumo inmediato."
+  },
+  {
+    "id": "1777567285260",
+    "title": "Crema de Berenjenas Asadas (Baba Ganoush)",
+    "category": "Entradas",
+    "image": "fotos-receta/babaganush.png",
+    "ingredients": [
+      "2 berenjenas grandes",
+      "1 pimiento rojo",
+      "1 tomate maduro",
+      "1/2 cebolla",
+      "1 diente de ajo",
+      "Zumo de 1/2 limón",
+      "Perejil fresco picado (un puñado)",
+      "Aceite de Oliva Virgen Extra (AOVE)",
+      "Sal al gusto",
+      "1 cda. de tahini (para decorar)",
+      "Sumaque (para decorar)"
+    ],
+    "instructions": "1. Asar las berenjenas, el pimiento, el tomate y la cebolla a fuego directo o en horno a 200°C hasta que la piel esté quemada y los vegetales tiernos.\n2. Colocar los vegetales calientes en un recipiente tapado por 10 minutos para que el vapor facilite el pelado.\n3. Retirar la piel y las semillas de todos los vegetales.\n4. Picar finamente a cuchillo junto con el diente de ajo picado para mantener una textura rústica.\n5. Mezclar en un bol con el zumo de limón, el aceite de oliva, el perejil y la sal.\n6. Servir en plato llano, decorando con la cucharada de tahini, una lluvia de sumaque y perejil fresco extra.",
+    "authorComments": "Nota técnica: La clave del perfil ahumado característico de esta entrada está en el asado directo. El uso del sumaque aporta una acidez cítrica que eleva el sabor de la berenjena procesada a cuchillo."
+  },
+  {
+    "id": "1777569778899",
+    "title": "ZA'ALUK (Ensalada Rústica de Berenjenas y Vegetales Asados)",
+    "category": "Entradas",
+    "image": "fotos-receta/ensalada-berenjena-rustica.png",
+    "ingredients": [
+      "2 berenjenas",
+      "2 tomates (sin semillas)",
+      "1 morrón rojo",
+      "1 cebolla morada",
+      "2 o 3 dientes de ajo",
+      "Aceite de oliva (c/n)",
+      "Comino",
+      "pimentón y ají molido",
+      "Sal al gusto",
+      "Perejil o cilantro fresco para decorar"
+    ],
+    "instructions": "1. Pelar parcialmente las berenjenas (dejando tiras de cáscara) y cortarlas en cubos.\n2. Retirar semillas al tomate y al morrón. Cortarlos en trozos grandes junto con la cebolla morada.\n3. Colocar todos los vegetales y los ajos en una fuente para horno con abundante aceite de oliva.\n4. Hornear a 230°C durante 15 minutos.\n5. Retirar, condimentar con comino, pimentón, ají molido y sal. Mezclar bien.\n6. Hornear 20 minutos más hasta que estén dorados y tiernos.\n7. Procesar levemente (pulso corto) para obtener una textura rústica con trozos visibles, no una pasta lisa.\n8. Servir con un chorrito de aceite de oliva extra y la hierba fresca picada.",
+    "authorComments": "Nota técnica: La temperatura de 230°C es crítica para caramelizar los azúcares de la cebolla y el morrón sin que la berenjena se desarme totalmente. El procesado debe ser mínimo para preservar la identidad de cada vegetal."
+  },
+  {
+    "id": "1777572331608",
+    "title": "Dulce de Membrillo en pan",
+    "category": "Dulces",
+    "image": "fotos-receta/dulce-membrillo.png",
+    "ingredients": [
+      "1 kg de membrillos maduros (con piel)",
+      "800 g de azúcar (ajustable según peso final de la fruta)",
+      "El zumo de un limón"
+    ],
+    "instructions": "Lavar y trocear los membrillos retirando el corazón duro. Mantener la piel para aprovechar la alta concentración de pectina.,Colocar los trozos en un bol apto para microondas y añadir el zumo de limón para inhibir la oxidación enzimática.,Pesar la fruta troceada y equilibrar la carga con una cantidad equivalente de azúcar. Mezclar para homogeneizar.,Cocinar en microondas a potencia máxima (aprox. 850 W) en intervalos de 5 minutos.,Retirar, remover y repetir el ciclo (aprox. 4 a 5 veces) hasta que la fruta presente transparencia y un viraje de color hacia tonos ambarinos oscuros.,Triturar con batidora de inmersión hasta lograr una emulsión homogénea.,Si la viscosidad no ha alcanzado el punto de gelificación deseado, aplicar un ciclo térmico final de 5 minutos.,Trasvasar a moldes y dejar enfriar para completar la solidificación del pan.",
+    "authorComments": "Optimización de proceso: El uso de microondas reduce drásticamente el tiempo de evaporación. La pectina natural de la piel actúa como el agente espesante principal, eliminando la necesidad de aditivos externos."
+  },
+  {
+    "id": "1777572682542",
+    "title": "Membrillos en Cascos al Vino Tinto",
+    "category": "Postres",
+    "image": "fotos-receta/membrillos-vino-tinto.png",
+    "ingredients": [
+      "1 kg de cascos de membrillo (limpios",
+      "sin centros)",
+      "1 taza de azúcar",
+      "1 taza de agua",
+      "1 taza de vino tinto",
+      "Opcional: centros de membrillo (para aporte de pectina)"
+    ],
+    "instructions": "Limpiar los membrillos retirando los centros. Se recomienda reservarlos para aprovechar su alto contenido de pectina durante la cocción.,Fraccionar la fruta en cascos uniformes para garantizar una cinética de cocción homogénea.,En una olla, integrar el azúcar, el agua y el vino tinto, calentando hasta la disolución completa del soluto.,Incorporar los cascos de membrillo y cocinar a fuego moderado hasta que el parénquima de la fruta esté tierno.,Retirar la fruta y continuar la ebullición del almíbar hasta lograr la reducción y concentración de azúcares deseada.,Para asegurar la estabilidad microbiológica a temperatura ambiente, envasar en caliente y realizar un tratamiento térmico de los frascos cerrados (baño maría) durante 5 minutos.",
+    "authorComments": "Fundamento técnico: Los centros son ricos en pectina, lo que facilita la formación de un almíbar con mayor viscosidad. El tratamiento térmico final es un paso crítico de control para garantizar la seguridad alimentaria (Shelf-life extendido)."
+  },
+  {
+    "id": "1778250865963",
+    "title": "Baigan Bharta (Berenjenas Ahumadas)",
+    "category": "Dips",
+    "image": "fotos-receta/BaiganBharta.png",
+    "ingredients": [
+      "2 berenjenas grandes",
+      "2 tomates maduros",
+      "2 chalotas",
+      "2 dientes de ajo",
+      "1 cdta de garam masala",
+      "1 cdta de pimentón ahumado",
+      "1 cdta de comino",
+      "1 cdta de jengibre rallado",
+      "Aceite de oliva",
+      "Sal y Pimienta",
+      "Cilantro fresco"
+    ],
+    "instructions": "1. Quemar las berenjenas a fuego directo hasta carbonizar la piel.\n2. Pelar y picar la pulpa.\n3. Sofreír chalotas, ajo y jengibre.\n4. Añadir tomates y especias. Cocinar hasta que ablanden.\n5. Integrar la berenjena y cocinar 10 min a fuego bajo.\n6. Decorar con cilantro.",
+    "authorComments": "Tiempos: Prep 15' | Cocción 30'. Imagen cargada desde la carpeta de recursos local."
+  }
+]

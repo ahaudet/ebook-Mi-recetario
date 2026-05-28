@@ -1,0 +1,16 @@
+{
+  "name": "Recetario e Índice IDEA",
+  "short_name": "IDEA",
+  "description": "Recetario y Glosario Digital de Alejandro Haudet",
+  "start_url": "Glosario.html",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#8B4513",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2927/2927347.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -348,6 +348,14 @@
     }
 
     window.onload = inicializarMotor;
+    // Registro del Service Worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js') // Asegurate que el nombre coincida
+      .then(reg => console.log('Service Worker registrado', reg))
+      .catch(err => console.error('Error al registrar Service Worker', err));
+  });
+}
 </script>
 </body>
 </html>

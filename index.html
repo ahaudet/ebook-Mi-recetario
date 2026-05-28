@@ -11,6 +11,7 @@
             --color-marron: #4a3728;
             --color-accent: #8b4513;
             --color-bg: #f4f1ea;
+            --color-oro: #d4af37;
         }
 
         body {
@@ -22,9 +23,9 @@
             overflow-x: hidden;
         }
 
-        /* Sistema de Páginas/Vistas */
+        /* Sistema de Páginas */
         .page {
-            display: none; /* Ocultamos todas por defecto */
+            display: none;
             min-height: 100vh;
             width: 100vw;
             box-sizing: border-box;
@@ -33,33 +34,47 @@
         }
 
         .page.active {
-            display: flex; /* Solo se muestra la página activa */
+            display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
 
-        /* Portadas */
-        #portada-principal, #portada-especias {
+        /* Portada Principal */
+        #portada-principal {
             background-color: #000;
             padding: 0;
+            cursor: pointer;
         }
         .img-portada {
             max-width: 100%;
             height: 100vh;
             object-fit: contain;
-            cursor: pointer;
+        }
+        .tap-indicator {
+            position: absolute;
+            bottom: 30px;
+            color: white;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.4; }
+            50% { opacity: 1; }
+            100% { opacity: 0.4; }
         }
 
-        /* Tarjetas de Contenido (Estilo Libro) */
+        /* Tarjetas Estilo Libro */
         .card {
             background: var(--color-crema);
             max-width: 600px;
             width: 100%;
-            min-height: 80vh;
-            padding: 40px;
-            border-radius: 4px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            min-height: 85vh;
+            padding: 35px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
             border: 1px solid #e2d9c8;
             display: flex;
             flex-direction: column;
@@ -68,132 +83,122 @@
 
         h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
+            font-size: 2rem;
             text-align: center;
             margin-top: 0;
             color: var(--color-marron);
         }
 
-        /* Botones e Índices */
+        /* Botones Premium */
         .menu-grid {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 15px;
+            gap: 12px;
             width: 100%;
             margin-top: 20px;
         }
 
-       /* Botones con estilo más profesional */
-.btn-menu {
-    background: #ffffff;
-    border: 1px solid #d4af37; /* Dorado sutil */
-    padding: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
-    color: #4a3728;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.btn-menu:hover {
-    background: #4a3728;
-    color: #fdfaf5;
-    transform: translateY(-2px);
-}
-
-/* Indicador de "Tocar" en Portada */
-.tap-indicator {
-    position: absolute;
-    bottom: 30px;
-    color: white;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0% { opacity: 0.4; }
-    50% { opacity: 1; }
-    100% { opacity: 0.4; }
-}
+        .btn-menu {
+            background: #ffffff;
+            border: 1px solid var(--color-oro);
+            padding: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            color: var(--color-marron);
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.03);
         }
 
-        /* Índice Alfabético para Las Especias */
+        .btn-menu:hover {
+            background: var(--color-marron);
+            color: var(--color-crema);
+            transform: translateY(-2px);
+        }
+
+        /* Grilla de Especias Adaptable */
         .abc-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 10px;
             width: 100%;
             margin-top: 15px;
         }
+        .abc-grid .btn-menu {
+            font-size: 0.75rem;
+            padding: 12px 5px;
+            text-transform: none;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+        @media (min-width: 600px) {
+            .abc-grid { grid-template-columns: repeat(3, 1fr); }
+        }
 
-        /* Botones de Navegación del Libro (Abajo) */
+        /* Navegación Interna */
         .nav-controls {
             display: flex;
             justify-content: space-between;
             width: 100%;
             margin-top: auto;
             padding-top: 20px;
+            gap: 10px;
         }
 
         .btn-nav {
             background: transparent;
             border: 1px solid var(--color-marron);
-            padding: 8px 15px;
+            padding: 10px 15px;
             cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             border-radius: 4px;
+            font-family: 'Montserrat', sans-serif;
         }
-        .btn-nav:hover { background: var(--color-marron); color: white; }
 
-        /* Detalles de las Hojas de Contenido */
+        /* Estilos de Contenido */
         .section-title {
             font-weight: 600;
             text-transform: uppercase;
-            font-size: 0.8rem;
-            letter-spacing: 2px;
+            font-size: 0.75rem;
+            letter-spacing: 1.5px;
             color: var(--color-accent);
-            margin: 20px 0 5px 0;
+            margin: 15px 0 5px 0;
             border-bottom: 1px solid #dcd1ba;
             padding-bottom: 3px;
         }
-        .section-content { line-height: 1.6; font-weight: 300; margin-bottom: 10px;}
-        .flag { font-size: 2rem; text-align: center; display: block; margin-bottom: 10px; }
+        .section-content { line-height: 1.6; font-size: 0.95rem; font-weight: 300; margin-bottom: 10px;}
+        .flag { font-size: 2rem; text-align: center; display: block; margin-bottom: 5px; }
     </style>
 </head>
 <body>
 
-   <!-- 1. PORTADA CON INDICADOR -->
-<div id="portada-principal" class="page active" onclick="goPage('indice-general')">
-    <img src="image_d6412b.jpg" class="img-portada" alt="Portada Principal">
-    <div class="tap-indicator">── Tocar para abrir ──</div>
-</div>
+    <!-- 1. PORTADA -->
+    <div id="portada-principal" class="page active" onclick="goPage('indice-general')">
+        <img src="image_d6412b.jpg" class="img-portada" alt="Portada Principal">
+        <div class="tap-indicator">── Toca para abrir ──</div>
+    </div>
 
-<!-- 2. ÍNDICE GENERAL (Mejorado) -->
-<div id="indice-general" class="page">
-    <div class="card">
-        <h1 style="margin-bottom: 40px;">Menú Principal</h1>
-        <div class="menu-grid">
-            <!-- Quitamos los iconos "pedorros" y dejamos estilo limpio -->
-            <button class="btn-menu" onclick="goPage('indice-recetas')">El Recetario</button>
-            <!-- CAMBIO CLAVE: Aquí saltamos directo al índice de especias -->
-            <button class="btn-menu" onclick="goPage('indice-especias')">Las Especias</button>
+    <!-- 2. ÍNDICE GENERAL -->
+    <div id="indice-general" class="page">
+        <div class="card">
+            <h1 style="margin-bottom: 40px;">Menú Principal</h1>
+            <div class="menu-grid">
+                <button class="btn-menu" onclick="goPage('indice-recetas')">El Recetario</button>
+                <button class="btn-menu" onclick="goPage('indice-especias')">Las Especias</button>
+            </div>
         </div>
     </div>
-</div>
 
+    <!-- 3. ÍNDICE RECETAS -->
     <div id="indice-recetas" class="page">
         <div class="card">
             <h1>El Recetario</h1>
             <div class="menu-grid">
-                <!-- Agregá esto arriba de los otros botones de categorías -->
-<button class="btn-menu" onclick="mostrarTodasLasRecetas()">📖 Ver Todo el Recetario</button>
+                <button class="btn-menu" style="background: #fdfaf5; border-color: var(--color-marron);" onclick="mostrarTodasLasRecetas()">📖 Ver Todo el Recetario</button>
                 <button class="btn-menu" onclick="filtrarRecetas('Entradas')">Entradas</button>
                 <button class="btn-menu" onclick="filtrarRecetas('Dips')">Dips</button>
                 <button class="btn-menu" onclick="filtrarRecetas('Plato Principal')">Plato Principal</button>
@@ -204,184 +209,137 @@
                 <button class="btn-menu" onclick="filtrarRecetas('Dulces')">Dulces</button>
             </div>
             <div class="nav-controls">
-                <button class="btn-nav" onclick="goPage('indice-general')">⬅ Volver al Índice General</button>
+                <button class="btn-nav" onclick="goPage('indice-general')">⬅ Volver al Inicio</button>
             </div>
         </div>
     </div>
 
-    <div id="portada-especias" class="page" onclick="goPage('indice-especias')">
-        <img src="image_d6412b.jpg" class="img-portada" alt="Portada Las Especias">
-    </div>
-
+    <!-- 4. ÍNDICE LAS ESPECIAS -->
     <div id="indice-especias" class="page">
         <div class="card">
             <h1>Las Especias</h1>
-            <p style="text-align:center; font-style:italic;">Seleccione una para ver su detalle</p>
-            <div id="abc-container" class="abc-grid">
-                </div>
-            <div class="nav-controls" style="margin-top: auto;">
-                <button class="btn-nav" onclick="goPage('indice-general')">⬅ Volver al Índice General</button>
+            <p style="text-align:center; font-style:italic; font-size: 0.9rem;">Seleccione un ingrediente</p>
+            <div id="abc-container" class="abc-grid"></div>
+            <div class="nav-controls">
+                <button class="btn-nav" onclick="goPage('indice-general')">⬅ Volver al Inicio</button>
             </div>
         </div>
     </div>
 
+    <!-- 5. HOJA DINÁMICA -->
     <div id="hoja-libro" class="page">
-        <div class="card" id="contenido-hoja">
-            </div>
+        <div class="card" id="contenido-hoja"></div>
     </div>
 
-
 <script>
-    // Variables Globales del Motor
     let database = { especias: [], recetas: [] };
     let listaFiltradaActual = [];
     let indiceActual = 0;
-    let modoActual = ''; // 'especia' o 'receta'
+    let modoActual = '';
 
-    // Cambiar de pantalla (página)
     function goPage(pageId) {
         document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-        document.getElementById(pageId).classList.add('active');
-        window.scrollTo(0,0);
+        const target = document.getElementById(pageId);
+        if(target) {
+            target.classList.add('active');
+            window.scrollTo(0,0);
+        }
     }
 
-    // Cargar los JSON y ordenarlos de entrada al iniciar
     async function inicializarMotor() {
         try {
-            // Cargar y ordenar Especias
             const rEsp = await fetch('especias.json');
             database.especias = await rEsp.json();
             database.especias.sort((a, b) => a.title.localeCompare(b.title));
 
-            // Cargar y ordenar Recetas
             const rRec = await fetch('recetas.json');
             database.recetas = await rRec.json();
             database.recetas.sort((a, b) => a.title.localeCompare(b.title));
 
-            // Armar el índice de "Las Especias"
             const abcContainer = document.getElementById('abc-container');
+            abcContainer.innerHTML = '';
             database.especias.forEach((esp, idx) => {
                 let btn = document.createElement('button');
                 btn.className = 'btn-menu';
-                btn.style.fontSize = '0.85rem';
-                btn.style.padding = '10px 5px';
                 btn.innerText = esp.title;
-                btn.onclick = () => verEspecia(idx);
+                btn.onclick = () => {
+                    modoActual = 'especia';
+                    listaFiltradaActual = database.especias;
+                    indiceActual = idx;
+                    renderizarHoja();
+                };
                 abcContainer.appendChild(btn);
             });
-
-        } catch (e) {
-            console.error("Error inicializando los datos:", e);
-        }
+        } catch (e) { console.error("Error de carga:", e); }
     }
 
-    // Mostrar una Especia específica
-    function verEspecia(index) {
-        modoActual = 'especia';
-        listaFiltradaActual = database.especias;
-        indiceActual = index;
+    function mostrarTodasLasRecetas() {
+        modoActual = 'receta';
+        listaFiltradaActual = database.recetas;
+        indiceActual = 0;
         renderizarHoja();
     }
 
-    // Filtrar recetas por las 8 categorías principales
-    function filtrarRecetas(categoria) {
+    function filtrarRecetas(cat) {
         modoActual = 'receta';
-        listaFiltradaActual = database.recetas.filter(r => r.category === categoria);
-        indiceActual = 0;
-
+        listaFiltradaActual = database.recetas.filter(r => r.category === cat);
         if(listaFiltradaActual.length === 0) {
-            alert("No hay recetas cargadas en la categoría: " + categoria);
+            alert("No hay recetas en esta categoría.");
             return;
         }
+        indiceActual = 0;
         renderizarHoja();
     }
-    // Esta función ignora las categorías y te muestra el libro completo de la A a la Z
-function mostrarTodasLasRecetas() {
-    modoActual = 'receta';
-    listaFiltradaActual = database.recetas; // Usa la base de datos completa sin filtrar
-    indiceActual = 0;
-    renderizarHoja();
-}
 
-    // Renderizar la Hoja Activa (Efecto Libro)
     function renderizarHoja() {
         const contenedor = document.getElementById('contenido-hoja');
         const item = listaFiltradaActual[indiceActual];
-        
         let html = '';
 
         if (modoActual === 'especia') {
-    html = `
-        <span class="flag">${item.flag || '🌶️'}</span>
-        <h1>${item.title}</h1>
-        <p style="text-align:center; font-size:0.8rem; text-transform:uppercase; color:var(--color-accent);">${item.category || ''}</p>
-        <p class="section-content" style="font-style:italic; text-align:center;">${item.introduction || ''}</p>
-        
-        ${(item.sections || []).map(s => `
-            <div class="section-title">${s.title}</div>
-            <div class="section-content">${s.content}</div>
-        `).join('')}
-        
-        <div class="nav-controls" style="justify-content: center; margin-top: 30px; width: 100%;">
-            <button class="btn-menu" style="width: 100%; max-width: 300px; font-size: 0.8rem;" onclick="goPage('indice-especias')">
-                ⬅ Volver a Las Especias
-            </button>
-        </div>
-    `;
-}
-                
-                <div class="nav-controls">
-                    <button class="btn-nav" onclick="${indiceActual > 0 ? `cambiarHoja(-1)` : `goPage('indice-especias')`}">
-                        ${indiceActual > 0 ? '◀ Anterior' : '⬅ Volver al Índice'}
-                    </button>
-                    <button class="btn-nav" onclick="${indiceActual < listaFiltradaActual.length - 1 ? `cambiarHoja(1)` : `goPage('indice-especias')`}">
-                        ${indiceActual < listaFiltradaActual.length - 1 ? 'Siguiente ▶' : 'Fin (Volver)'}
-                    </button>
+            html = `
+                <span class="flag">${item.flag || '🌶️'}</span>
+                <h1>${item.title}</h1>
+                <p style="text-align:center; font-size:0.7rem; text-transform:uppercase; color:var(--color-accent); font-weight:600;">${item.category || ''}</p>
+                <p class="section-content" style="font-style:italic; text-align:center;">${item.introduction || ''}</p>
+                ${(item.sections || []).map(s => `
+                    <div class="section-title">${s.title}</div>
+                    <div class="section-content">${s.content}</div>
+                `).join('')}
+                <div class="nav-controls" style="justify-content:center;">
+                    <button class="btn-menu" style="width:100%;" onclick="goPage('indice-especias')">⬅ Volver a Las Especias</button>
                 </div>
             `;
         } else {
-            // Modo Receta
             html = `
                 <h1>${item.title}</h1>
-                <p style="text-align:center; font-size:0.8rem; text-transform:uppercase; color:var(--color-accent); font-weight:600;">${item.category}</p>
-                
+                <p style="text-align:center; font-size:0.7rem; text-transform:uppercase; color:var(--color-accent); font-weight:600;">${item.category}</p>
                 <div class="section-title">Ingredientes</div>
                 <ul class="section-content" style="padding-left:20px;">
                     ${(item.ingredients || []).map(i => `<li>${i}</li>`).join('')}
                 </ul>
-                
                 <div class="section-title">Preparación</div>
-                <div class="section-content">${Array.isArray(item.instructions) ? item.instructions.join('<br><br>') : item.instructions || ''}</div>
-                
-                ${item.authorComments ? `
-                    <div class="section-title">Notas del Autor</div>
-                    <div class="section-content" style="font-style:italic;">${item.authorComments}</div>
-                ` : ''}
-
+                <div class="section-content">${Array.isArray(item.instructions) ? item.instructions.join('<br><br>') : item.instructions}</div>
                 <div class="nav-controls">
                     <button class="btn-nav" onclick="${indiceActual > 0 ? `cambiarHoja(-1)` : `goPage('indice-recetas')`}">
                         ${indiceActual > 0 ? '◀ Anterior' : '⬅ Volver al Índice'}
                     </button>
                     <button class="btn-nav" onclick="${indiceActual < listaFiltradaActual.length - 1 ? `cambiarHoja(1)` : `goPage('indice-recetas')`}">
-                        ${indiceActual < listaFiltradaActual.length - 1 ? 'Siguiente ▶' : 'Fin (Volver)'}
+                        ${indiceActual < listaFiltradaActual.length - 1 ? 'Siguiente ▶' : 'Fin'}
                     </button>
                 </div>
             `;
         }
-
         contenedor.innerHTML = html;
         goPage('hoja-libro');
     }
 
-    // Pasar páginas hacia adelante o atrás
-    function cambiarHoja(direccion) {
-        indiceActual += direccion;
+    function cambiarHoja(dir) {
+        indiceActual += dir;
         renderizarHoja();
     }
 
-    // Inicializar al cargar ventana
     window.onload = inicializarMotor;
 </script>
-
 </body>
 </html>

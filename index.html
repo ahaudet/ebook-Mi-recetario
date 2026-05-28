@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glosario de Especias y Recetas</title>
+    <title>Mis Recetas y Las Especias</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -19,204 +19,323 @@
             font-family: 'Montserrat', sans-serif;
             background-color: var(--color-bg);
             color: var(--color-marron);
-            scroll-behavior: smooth;
+            overflow-x: hidden;
         }
 
-        .slide {
+        /* Sistema de Páginas/Vistas */
+        .page {
+            display: none; /* Ocultamos todas por defecto */
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 40px 20px;
+            width: 100vw;
             box-sizing: border-box;
-            border-bottom: 2px solid rgba(0,0,0,0.05);
+            padding: 20px;
+            position: relative;
         }
 
-        #portada {
+        .page.active {
+            display: flex; /* Solo se muestra la página activa */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Portadas */
+        #portada-principal, #portada-especias {
             background-color: #000;
             padding: 0;
         }
-        #portada img {
+        .img-portada {
             max-width: 100%;
             height: 100vh;
             object-fit: contain;
+            cursor: pointer;
         }
 
+        /* Tarjetas de Contenido (Estilo Libro) */
         .card {
             background: var(--color-crema);
-            max-width: 850px;
+            max-width: 600px;
             width: 100%;
-            padding: 50px;
+            min-height: 80vh;
+            padding: 40px;
             border-radius: 4px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-            position: relative;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
             border: 1px solid #e2d9c8;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
         }
 
-        h1, h2 {
+        h1 {
             font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            text-align: center;
             margin-top: 0;
+            color: var(--color-marron);
         }
 
-        .flag { font-size: 2rem; margin-bottom: 10px; display: block; }
-        
-        .intro {
-            font-style: italic;
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-            color: #6d5b4e;
-            line-height: 1.6;
+        /* Botones e Índices */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            width: 100%;
+            margin-top: 20px;
         }
 
+        .btn-menu {
+            background: #e9e2d3;
+            border: 1px solid #dcd1ba;
+            padding: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color: var(--color-marron);
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s;
+            font-weight: 400;
+        }
+
+        .btn-menu:hover {
+            background: var(--color-marron);
+            color: var(--color-crema);
+        }
+
+        /* Índice Alfabético para Las Especias */
+        .abc-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        /* Botones de Navegación del Libro (Abajo) */
+        .nav-controls {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: auto;
+            padding-top: 20px;
+        }
+
+        .btn-nav {
+            background: transparent;
+            border: 1px solid var(--color-marron);
+            padding: 8px 15px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            border-radius: 4px;
+        }
+        .btn-nav:hover { background: var(--color-marron); color: white; }
+
+        /* Detalles de las Hojas de Contenido */
         .section-title {
             font-weight: 600;
             text-transform: uppercase;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             letter-spacing: 2px;
             color: var(--color-accent);
-            margin-bottom: 10px;
+            margin: 20px 0 5px 0;
             border-bottom: 1px solid #dcd1ba;
-            padding-bottom: 5px;
+            padding-bottom: 3px;
         }
-
-        .section-content {
-            margin-bottom: 25px;
-            line-height: 1.7;
-            font-weight: 300;
-        }
-
-        .category-tag {
-            display: inline-block;
-            background: #e9e2d3;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        nav {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 100;
-            display: flex;
-            gap: 10px;
-        }
-        nav button {
-            background: white;
-            border: 1px solid #ccc;
-            padding: 8px 15px;
-            cursor: pointer;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.8rem;
-            border-radius: 4px;
-            transition: all 0.3s;
-        }
-        nav button:hover { background: var(--color-marron); color: white; }
-
-        @media (max-width: 600px) {
-            .card { padding: 25px; }
-            nav { bottom: 20px; top: auto; width: 100%; justify-content: center; right: 0; }
-        }
+        .section-content { line-height: 1.6; font-weight: 300; margin-bottom: 10px;}
+        .flag { font-size: 2rem; text-align: center; display: block; margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
-<nav>
-    <button onclick="document.getElementById('portada').scrollIntoView()">Portada</button>
-    <button onclick="document.getElementById('glosario-container').scrollIntoView()">Especias</button>
-    <button onclick="document.getElementById('recetario-container').scrollIntoView()">Recetas</button>
-</nav>
+    <div id="portada-principal" class="page active" onclick="goPage('indice-general')">
+        <img src="image_d6412b.jpg" class="img-portada" alt="Portada Principal">
+    </div>
 
-<section id="portada" class="slide">
-    <img src="image_d6412b.jpg" alt="Portada Paseo Culinario">
-</section>
+    <div id="indice-general" class="page">
+        <div class="card">
+            <h1>Libro de Cocina</h1>
+            <div class="menu-grid" style="margin-top: 50px;">
+                <button class="btn-menu" onclick="goPage('indice-recetas')">📖 El Recetario</button>
+                <button class="btn-menu" onclick="goPage('portada-especias')">🌶️ Las Especias</button>
+            </div>
+        </div>
+    </div>
 
-<div id="glosario-container"></div>
-<div id="recetario-container"></div>
+    <div id="indice-recetas" class="page">
+        <div class="card">
+            <h1>El Recetario</h1>
+            <div class="menu-grid">
+                <button class="btn-menu" onclick="filtrarRecetas('Entradas')">Entradas</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Dips')">Dips</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Plato Principal')">Plato Principal</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Ensaladas')">Ensaladas</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Acompañamiento')">Acompañamiento</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Conservas')">Conservas</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Postres')">Postres</button>
+                <button class="btn-menu" onclick="filtrarRecetas('Dulces')">Dulces</button>
+            </div>
+            <div class="nav-controls">
+                <button class="btn-nav" onclick="goPage('indice-general')">⬅ Volver al Índice General</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="portada-especias" class="page" onclick="goPage('indice-especias')">
+        <img src="image_d6412b.jpg" class="img-portada" alt="Portada Las Especias">
+    </div>
+
+    <div id="indice-especias" class="page">
+        <div class="card">
+            <h1>Las Especias</h1>
+            <p style="text-align:center; font-style:italic;">Seleccione una para ver su detalle</p>
+            <div id="abc-container" class="abc-grid">
+                </div>
+            <div class="nav-controls" style="margin-top: auto;">
+                <button class="btn-nav" onclick="goPage('indice-general')">⬅ Volver al Índice General</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="hoja-libro" class="page">
+        <div class="card" id="contenido-hoja">
+            </div>
+    </div>
+
 
 <script>
-    async function cargarDatos() {
+    // Variables Globales del Motor
+    let database = { especias: [], recetas: [] };
+    let listaFiltradaActual = [];
+    let indiceActual = 0;
+    let modoActual = ''; // 'especia' o 'receta'
+
+    // Cambiar de pantalla (página)
+    function goPage(pageId) {
+        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+        document.getElementById(pageId).classList.add('active');
+        window.scrollTo(0,0);
+    }
+
+    // Cargar los JSON y ordenarlos de entrada al iniciar
+    async function inicializarMotor() {
         try {
-            // 1. Cargar y ordenar Especias
-            const respEspecias = await fetch('especias.json');
-            let especias = await respEspecias.json();
-            
-            // Forzar ordenamiento alfabético estricto por título
-            especias.sort((a, b) => a.title.localeCompare(b.title));
-            
-            const glosarioDiv = document.getElementById('glosario-container');
-            especias.forEach(e => {
-                glosarioDiv.innerHTML += `
-                    <section class="slide">
-                        <div class="card">
-                            <span class="flag">${e.flag || ''}</span>
-                            <span class="category-tag">${e.category || ''}</span>
-                            <h1>${e.title}</h1>
-                            <p class="intro">${e.introduction || ''}</p>
-                            ${(e.sections || []).map(s => `
-                                <div class="section-title">${s.title}</div>
-                                <div class="section-content">${s.content}</div>
-                            `).join('')}
-                        </div>
-                    </section>
-                `;
+            // Cargar y ordenar Especias
+            const rEsp = await fetch('especias.json');
+            database.especias = await rEsp.json();
+            database.especias.sort((a, b) => a.title.localeCompare(b.title));
+
+            // Cargar y ordenar Recetas
+            const rRec = await fetch('recetas.json');
+            database.recetas = await rRec.json();
+            database.recetas.sort((a, b) => a.title.localeCompare(b.title));
+
+            // Armar el índice de "Las Especias"
+            const abcContainer = document.getElementById('abc-container');
+            database.especias.forEach((esp, idx) => {
+                let btn = document.createElement('button');
+                btn.className = 'btn-menu';
+                btn.style.fontSize = '0.85rem';
+                btn.style.padding = '10px 5px';
+                btn.innerText = esp.title;
+                btn.onclick = () => verEspecia(idx);
+                abcContainer.appendChild(btn);
             });
 
-            // 2. Cargar y ordenar Recetas
-            const respRecetas = await fetch('recetas.json');
-            let recetas = await respRecetas.json();
-            
-            // Forzar ordenamiento alfabético en el recetario
-            recetas.sort((a, b) => a.title.localeCompare(b.title));
-            
-            const recetarioDiv = document.getElementById('recetario-container');
-            recetas.forEach(r => {
-                // Manejar la preparación ya sea una cadena de texto o un array
-                let preparacionHtml = '';
-                if (Array.isArray(r.instructions)) {
-                    preparacionHtml = `<ol class="section-content">${r.instructions.map(i => `<li>${i}</li>`).join('')}</ol>`;
-                } else if (r.instructions) {
-                    preparacionHtml = `<div class="section-content">${r.instructions.split(',').join('<br><br>')}</div>`;
-                }
-
-                recetarioDiv.innerHTML += `
-                    <section class="slide">
-                        <div class="card">
-                            <span class="category-tag">${r.category || 'Receta'}</span>
-                            <h1>${r.title}</h1>
-                            
-                            <div class="section-title">Ingredientes</div>
-                            <ul class="section-content">
-                                ${(r.ingredients || []).map(i => `<li>${i}</li>`).join('')}
-                            </ul>
-                            
-                            <div class="section-title">Preparación</div>
-                            ${preparacionHtml}
-                            
-                            ${r.authorComments ? `
-                                <div class="section-title">Comentarios del Autor</div>
-                                <div class="section-content"><i>${r.authorComments}</i></div>
-                            ` : ''}
-                        </div>
-                    </section>
-                `;
-            });
-
-        } catch (error) {
-            console.error("Error en el Motor de Carga:", error);
+        } catch (e) {
+            console.error("Error inicializando los datos:", e);
         }
     }
 
-    window.onload = cargarDatos;
-    // Registrar el Service Worker para soporte offline y PWA
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js')
-        .then(() => console.log('Service Worker registrado con éxito.'))
-        .catch((err) => console.log('Error al registrar el Service Worker:', err));
-}
+    // Mostrar una Especia específica
+    function verEspecia(index) {
+        modoActual = 'especia';
+        listaFiltradaActual = database.especias;
+        indiceActual = index;
+        renderizarHoja();
+    }
+
+    // Filtrar recetas por las 8 categorías principales
+    function filtrarRecetas(categoria) {
+        modoActual = 'receta';
+        listaFiltradaActual = database.recetas.filter(r => r.category === categoria);
+        indiceActual = 0;
+
+        if(listaFiltradaActual.length === 0) {
+            alert("No hay recetas cargadas en la categoría: " + categoria);
+            return;
+        }
+        renderizarHoja();
+    }
+
+    // Renderizar la Hoja Activa (Efecto Libro)
+    function renderizarHoja() {
+        const contenedor = document.getElementById('contenido-hoja');
+        const item = listaFiltradaActual[indiceActual];
+        
+        let html = '';
+
+        if (modoActual === 'especia') {
+            html = `
+                <span class="flag">${item.flag || '🌶️'}</span>
+                <h1>${item.title}</h1>
+                <p style="text-align:center; font-size:0.8rem; text-transform:uppercase; color:var(--color-accent);">${item.category || ''}</p>
+                <p class="section-content" style="font-style:italic; text-align:center;">${item.introduction || ''}</p>
+                
+                ${(item.sections || []).map(s => `
+                    <div class="section-title">${s.title}</div>
+                    <div class="section-content">${s.content}</div>
+                `).join('')}
+                
+                <div class="nav-controls">
+                    <button class="btn-nav" onclick="${indiceActual > 0 ? `cambiarHoja(-1)` : `goPage('indice-especias')`}">
+                        ${indiceActual > 0 ? '◀ Anterior' : '⬅ Volver al Índice'}
+                    </button>
+                    <button class="btn-nav" onclick="${indiceActual < listaFiltradaActual.length - 1 ? `cambiarHoja(1)` : `goPage('indice-especias')`}">
+                        ${indiceActual < listaFiltradaActual.length - 1 ? 'Siguiente ▶' : 'Fin (Volver)'}
+                    </button>
+                </div>
+            `;
+        } else {
+            // Modo Receta
+            html = `
+                <h1>${item.title}</h1>
+                <p style="text-align:center; font-size:0.8rem; text-transform:uppercase; color:var(--color-accent); font-weight:600;">${item.category}</p>
+                
+                <div class="section-title">Ingredientes</div>
+                <ul class="section-content" style="padding-left:20px;">
+                    ${(item.ingredients || []).map(i => `<li>${i}</li>`).join('')}
+                </ul>
+                
+                <div class="section-title">Preparación</div>
+                <div class="section-content">${Array.isArray(item.instructions) ? item.instructions.join('<br><br>') : item.instructions || ''}</div>
+                
+                ${item.authorComments ? `
+                    <div class="section-title">Notas del Autor</div>
+                    <div class="section-content" style="font-style:italic;">${item.authorComments}</div>
+                ` : ''}
+
+                <div class="nav-controls">
+                    <button class="btn-nav" onclick="${indiceActual > 0 ? `cambiarHoja(-1)` : `goPage('indice-recetas')`}">
+                        ${indiceActual > 0 ? '◀ Anterior' : '⬅ Volver al Índice'}
+                    </button>
+                    <button class="btn-nav" onclick="${indiceActual < listaFiltradaActual.length - 1 ? `cambiarHoja(1)` : `goPage('indice-recetas')`}">
+                        ${indiceActual < listaFiltradaActual.length - 1 ? 'Siguiente ▶' : 'Fin (Volver)'}
+                    </button>
+                </div>
+            `;
+        }
+
+        contenedor.innerHTML = html;
+        goPage('hoja-libro');
+    }
+
+    // Pasar páginas hacia adelante o atrás
+    function cambiarHoja(direccion) {
+        indiceActual += direccion;
+        renderizarHoja();
+    }
+
+    // Inicializar al cargar ventana
+    window.onload = inicializarMotor;
 </script>
 
 </body>

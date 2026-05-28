@@ -310,6 +310,8 @@
                     <button class="btn-menu" style="width:100%;" onclick="goPage('indice-especias')">⬅ Volver a Las Especias</button>
                 </div>
             `;
+        // BUSCÁ ESTE BLOQUE DENTRO DE renderizarHoja() Y REEMPLAZALO:
+
         } else {
             html = `
                 <h1>${item.title}</h1>
@@ -320,12 +322,21 @@
                 </ul>
                 <div class="section-title">Preparación</div>
                 <div class="section-content">${Array.isArray(item.instructions) ? item.instructions.join('<br><br>') : item.instructions}</div>
+                
+                <!-- BOTONES DE NAVEGACIÓN DE RECETA -->
                 <div class="nav-controls">
                     <button class="btn-nav" onclick="${indiceActual > 0 ? `cambiarHoja(-1)` : `goPage('indice-recetas')`}">
                         ${indiceActual > 0 ? '◀ Anterior' : '⬅ Volver al Índice'}
                     </button>
                     <button class="btn-nav" onclick="${indiceActual < listaFiltradaActual.length - 1 ? `cambiarHoja(1)` : `goPage('indice-recetas')`}">
                         ${indiceActual < listaFiltradaActual.length - 1 ? 'Siguiente ▶' : 'Fin'}
+                    </button>
+                </div>
+
+                <!-- BOTÓN EXTRA PARA VOLVER AL INICIO GENERAL -->
+                <div style="margin-top: 15px; width: 100%; display: flex; justify-content: center;">
+                    <button class="btn-menu" style="width: 100%; font-size: 0.7rem; padding: 12px;" onclick="goPage('indice-general')">
+                        🏠 Volver al Inicio General
                     </button>
                 </div>
             `;

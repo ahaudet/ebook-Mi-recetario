@@ -83,22 +83,45 @@
             margin-top: 20px;
         }
 
-        .btn-menu {
-            background: #e9e2d3;
-            border: 1px solid #dcd1ba;
-            padding: 15px;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1rem;
-            color: var(--color-marron);
-            cursor: pointer;
-            border-radius: 4px;
-            transition: all 0.3s;
-            font-weight: 400;
-        }
+       /* Botones con estilo más profesional */
+.btn-menu {
+    background: #ffffff;
+    border: 1px solid #d4af37; /* Dorado sutil */
+    padding: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #4a3728;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
 
-        .btn-menu:hover {
-            background: var(--color-marron);
-            color: var(--color-crema);
+.btn-menu:hover {
+    background: #4a3728;
+    color: #fdfaf5;
+    transform: translateY(-2px);
+}
+
+/* Indicador de "Tocar" en Portada */
+.tap-indicator {
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { opacity: 0.4; }
+}
         }
 
         /* Índice Alfabético para Las Especias */
@@ -146,19 +169,24 @@
 </head>
 <body>
 
-    <div id="portada-principal" class="page active" onclick="goPage('indice-general')">
-        <img src="image_d6412b.jpg" class="img-portada" alt="Portada Principal">
-    </div>
+   <!-- 1. PORTADA CON INDICADOR -->
+<div id="portada-principal" class="page active" onclick="goPage('indice-general')">
+    <img src="image_d6412b.jpg" class="img-portada" alt="Portada Principal">
+    <div class="tap-indicator">── Tocar para abrir ──</div>
+</div>
 
-    <div id="indice-general" class="page">
-        <div class="card">
-            <h1>Libro de Cocina</h1>
-            <div class="menu-grid" style="margin-top: 50px;">
-                <button class="btn-menu" onclick="goPage('indice-recetas')">📖 El Recetario</button>
-                <button class="btn-menu" onclick="goPage('portada-especias')">🌶️ Las Especias</button>
-            </div>
+<!-- 2. ÍNDICE GENERAL (Mejorado) -->
+<div id="indice-general" class="page">
+    <div class="card">
+        <h1 style="margin-bottom: 40px;">Menú Principal</h1>
+        <div class="menu-grid">
+            <!-- Quitamos los iconos "pedorros" y dejamos estilo limpio -->
+            <button class="btn-menu" onclick="goPage('indice-recetas')">El Recetario</button>
+            <!-- CAMBIO CLAVE: Aquí saltamos directo al índice de especias -->
+            <button class="btn-menu" onclick="goPage('indice-especias')">Las Especias</button>
         </div>
     </div>
+</div>
 
     <div id="indice-recetas" class="page">
         <div class="card">

@@ -192,6 +192,8 @@
         <div class="card">
             <h1>El Recetario</h1>
             <div class="menu-grid">
+                <!-- Agregá esto arriba de los otros botones de categorías -->
+<button class="btn-menu" onclick="mostrarTodasLasRecetas()">📖 Ver Todo el Recetario</button>
                 <button class="btn-menu" onclick="filtrarRecetas('Entradas')">Entradas</button>
                 <button class="btn-menu" onclick="filtrarRecetas('Dips')">Dips</button>
                 <button class="btn-menu" onclick="filtrarRecetas('Plato Principal')">Plato Principal</button>
@@ -293,6 +295,13 @@
         }
         renderizarHoja();
     }
+    // Esta función ignora las categorías y te muestra el libro completo de la A a la Z
+function mostrarTodasLasRecetas() {
+    modoActual = 'receta';
+    listaFiltradaActual = database.recetas; // Usa la base de datos completa sin filtrar
+    indiceActual = 0;
+    renderizarHoja();
+}
 
     // Renderizar la Hoja Activa (Efecto Libro)
     function renderizarHoja() {
